@@ -1,0 +1,218 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13pt;
+  background-color: #d2d2e0;
+  padding: 10px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 15pt;
+  color: #148799;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+.img-circle {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.section {
+  background-color: rgb(235, 233, 233);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#header {
+  background-image: url(https://image.freepik.com/free-vector/classic-blue-background-with-memphis-effect_23-2148428988.jpg);
+  background-size: contain;
+}
+#header img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+#header p {
+  font-size: 25pt;
+  color: #172025;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+.quote {
+  font-size: 12pt;
+  text-align: right;
+  margin-top: 10px;
+}
+.table_blur {
+  width: 100%;
+  font-size: 11pt;
+}
+.table_blur {
+  background: #f5ffff;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table_blur th {
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+  box-shadow: inset 0 1px 0 #999999, inset 0 -1px 0 #999999;
+  background: linear-gradient(#50c2cd, #006483);
+  color: white;
+  padding: 10px 15px;
+  position: relative;
+}
+.table_blur th:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  height: 25%;
+  width: 100%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.08)
+  );
+}
+.table_blur tr:nth-child(odd) {
+  background: #ebf3f9;
+}
+.table_blur th:first-child {
+  border-left: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+  box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur th:last-child {
+  border-right: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+  box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
+}
+.table_blur td {
+  border: 1px solid #e3eef7;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.table_blur tbody:hover td {
+  color: transparent;
+  text-shadow: 0 0 3px #a09f9d;
+}
+.table_blur tbody:hover tr:hover td {
+  color: #444444;
+  text-shadow: none;
+}
+
+.selected {
+  background-color: #f36f48;
+  font-weight: bold;
+  color: white;
+}
+dt {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  font-weight: initial;
+}
+/*Индикатор прогресса начало*/
+.progress-bar {
+  background-color: #d2d2e0;
+  height: 28px;
+  padding: 5px;
+  width: 70%;
+  margin: 1px 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+  -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+  box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+.progress-bar span {
+  display: inline-block;
+  height: 20px;
+  width: 70%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 233, 250, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-transition: width 0.4s ease-in-out;
+  -moz-transition: width 0.4s ease-in-out;
+  -ms-transition: width 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.blue span {
+  background-color: #34c2e3;
+}
+
+.shine span {
+  position: relative;
+}
+
+.shine span::after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.glow span {
+  -moz-box-shadow: 0 5px 5px rgba(255, 255, 255, 0.7) inset,
+    0 -5px 5px rgba(255, 255, 255, 0.7) inset;
+  -webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, 0.7) inset,
+    0 -5px 5px rgba(255, 255, 255, 0.7) inset;
+  box-shadow: 0 5px 5px rgba(255, 255, 255, 0.7) inset,
+    0 -5px 5px rgba(255, 255, 255, 0.7) inset;
+}
+
+/*Индикатор прогресса конец*/
+hr {
+  border: 0;
+  height: 1px;
+  background: #f36f48;
+}
+
+#contacts img {
+  height: 50px;
+  width: 50px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+#contacts a {
+  text-decoration: none;
+}
+#contacts img:hover {
+  opacity: 0.8;
+}
+#contacts {
+  text-align: center;
+}
+.copyright {
+  font-size: 8pt;
+  text-align: right;
+  padding-bottom: 10px;
+  color: grey;
+}
