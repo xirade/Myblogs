@@ -89,7 +89,6 @@ const LiquidButton = class LiquidButton {
             this.touches.push({x, y, force: touch.force || 1});
           }
         }
-        e.preventDefault();
       };
     }
   
