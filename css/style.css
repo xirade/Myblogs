@@ -210,7 +210,7 @@ hr {
 #contacts {
   text-align: center;
 }
-.copyright {
+.copyright, .copyright a {
   font-size: 8pt;
   text-align: right;
   padding-bottom: 10px;
