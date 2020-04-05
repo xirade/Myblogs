@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="600px" height="600px" viewBox="0 0 200 200" style="overflow:hidden!important;">
+  <defs id="SvgjsDefs1007">
+    <radialGradient id="SvgjsRadialGradient2907" cx="100" cy="114" r="41" gradientUnits="userSpaceOnUse" class="svga-on-canvas-facehighlight-gradient-single-0">
+      <stop id="SvgjsStop2908" stop-opacity="0.5" stop-color="#ffe4d6" offset="0"/>
+      <stop id="SvgjsStop2909" stop-opacity="0" stop-color="#f0c7b1" offset="0.9"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient2911" cx="100" cy="54" r="37" gradientUnits="userSpaceOnUse" class="svga-on-canvas-facehighlight-gradient-single-1">
+      <stop id="SvgjsStop2912" stop-opacity="0.5" stop-color="#ffe4d6" offset="0"/>
+      <stop id="SvgjsStop2913" stop-opacity="0" stop-color="#f0c7b1" offset="0.9"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient3934" cx="100" cy="100" r="150" gradientUnits="userSpaceOnUse" class="svga-on-canvas-backs-gradient-single-1">
+      <stop id="SvgjsStop3935" stop-opacity="0" stop-color="#ecf0f1" offset="0"/>
+      <stop id="SvgjsStop3936" stop-opacity="1" stop-color="#c6dce2" offset="0.2"/>
+      <stop id="SvgjsStop3937" stop-opacity="0" stop-color="#c6dce2" offset="1"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient4870" cx="-582.838" cy="-519.099" r="59.745" gradientTransform="matrix(0.0991 8.856319e-004 -0.0011 0.0991 131.1134 135.9855)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-left-2">
+      <stop id="SvgjsStop4871" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4872" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </radialGradient>
+    <linearGradient id="SvgjsLinearGradient4876" x1="122.67" y1="88.268" x2="123.606" y2="87.152" gradientTransform="matrix(1 0 0 1 -52 0)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-left-5">
+      <stop id="SvgjsStop4877" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4878" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient4880" x1="127.212" y1="82.296" x2="126.463" y2="83.189" gradientTransform="matrix(1 0 0 1 -52 0)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-left-6">
+      <stop id="SvgjsStop4881" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4882" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient4884" x1="129.636" y1="79.822" x2="127.91" y2="81.879" gradientTransform="matrix(1 0 0 1 -52 0)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-left-7">
+      <stop id="SvgjsStop4885" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4886" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <radialGradient id="SvgjsRadialGradient4893" cx="-582.833" cy="-519.102" r="59.747" gradientTransform="matrix(0.0991 8.856319e-004 -0.0011 0.0991 183.1126 135.9856)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-right-2">
+      <stop id="SvgjsStop4894" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4895" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </radialGradient>
+    <linearGradient id="SvgjsLinearGradient4899" x1="122.67" y1="88.268" x2="123.606" y2="87.152" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-right-5">
+      <stop id="SvgjsStop4900" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4901" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient4903" x1="127.212" y1="82.296" x2="126.463" y2="83.189" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-right-6">
+      <stop id="SvgjsStop4904" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4905" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient4907" x1="129.636" y1="79.822" x2="127.91" y2="81.879" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-right-7">
+      <stop id="SvgjsStop4908" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4909" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient4992" x1="127.637" y1="79.822" x2="125.91" y2="81.88" gradientTransform="matrix(1 0 0 1 -50 0)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-left-1">
+      <stop id="SvgjsStop4993" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4994" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient4997" x1="129.637" y1="79.823" x2="127.91" y2="81.881" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesiris-gradient-right-1">
+      <stop id="SvgjsStop4998" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop4999" stop-opacity="0" stop-color="#ffffff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient5164" x1="130" y1="77" x2="130" y2="98" gradientUnits="userSpaceOnUse" class="svga-on-canvas-glasses-gradient-single-0">
+      <stop id="SvgjsStop5165" stop-opacity="1" stop-color="#26120b" offset="0"/>
+      <stop id="SvgjsStop5166" stop-opacity="0.5" stop-color="#26120b" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient5168" x1="130" y1="77" x2="130" y2="98" gradientTransform="matrix(-1 0 0 1 200 0)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-glasses-gradient-single-1">
+      <stop id="SvgjsStop5169" stop-opacity="1" stop-color="#26120b" offset="0"/>
+      <stop id="SvgjsStop5170" stop-opacity="0.5" stop-color="#26120b" offset="1"/>
+    </linearGradient>
+    <linearGradient id="SvgjsLinearGradient5211" x1="100" y1="140" x2="100" y2="138" gradientUnits="userSpaceOnUse" class="svga-on-canvas-mouth-gradient-single-0">
+      <stop id="SvgjsStop5212" stop-opacity="1" stop-color="#e8b9a0" offset="0.1"/>
+      <stop id="SvgjsStop5213" stop-opacity="1" stop-color="#e1ac8f" offset="1"/>
+    </linearGradient>
+    <radialGradient id="SvgjsRadialGradient5337" cx="126.035" cy="84.795" r="10.908" gradientTransform="matrix(-1 0 0 1 200 0)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesback-gradient-left-0">
+      <stop id="SvgjsStop5338" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop5339" stop-opacity="1" stop-color="#fdfefe" offset="0.544"/>
+      <stop id="SvgjsStop5340" stop-opacity="1" stop-color="#f6f8f9" offset="0.74"/>
+      <stop id="SvgjsStop5341" stop-opacity="1" stop-color="#eaeff2" offset="0.879"/>
+      <stop id="SvgjsStop5342" stop-opacity="1" stop-color="#d9e3e8" offset="0.992"/>
+      <stop id="SvgjsStop5343" stop-opacity="1" stop-color="#d8e2e7" offset="1"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient5345" cx="125.637" cy="84.795" r="10.908" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesback-gradient-right-0">
+      <stop id="SvgjsStop5346" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop5347" stop-opacity="1" stop-color="#fdfefe" offset="0.544"/>
+      <stop id="SvgjsStop5348" stop-opacity="1" stop-color="#f6f8f9" offset="0.74"/>
+      <stop id="SvgjsStop5349" stop-opacity="1" stop-color="#eaeff2" offset="0.879"/>
+      <stop id="SvgjsStop5350" stop-opacity="1" stop-color="#d9e3e8" offset="0.992"/>
+      <stop id="SvgjsStop5351" stop-opacity="1" stop-color="#d8e2e7" offset="1"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient5353" cx="126.035" cy="84.795" r="10.908" gradientTransform="matrix(-1 0 0 1 200 0)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesfront-gradient-left-0">
+      <stop id="SvgjsStop5354" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop5355" stop-opacity="1" stop-color="#fdfefe" offset="0.544"/>
+      <stop id="SvgjsStop5356" stop-opacity="1" stop-color="#f6f8f9" offset="0.74"/>
+      <stop id="SvgjsStop5357" stop-opacity="1" stop-color="#eaeff2" offset="0.879"/>
+      <stop id="SvgjsStop5358" stop-opacity="1" stop-color="#d9e3e8" offset="0.992"/>
+      <stop id="SvgjsStop5359" stop-opacity="1" stop-color="#d8e2e7" offset="1"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient5363" cx="123.813" cy="83.449" fx="136.255" fy="83.484" r="17.696" gradientTransform="matrix(0.9998 0.0208 0.0166 -0.7998 -48.9873 147.6178)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesfront-gradient-left-3">
+      <stop id="SvgjsStop5364" stop-opacity="1" stop-color="#e1ac8f" offset="0"/>
+      <stop id="SvgjsStop5365" stop-opacity="0.3" stop-color="#e1ac8f" offset="0.7"/>
+      <stop id="SvgjsStop5366" stop-opacity="0" stop-color="#f0c7b1" offset="1"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient5368" cx="122.749" cy="106.061" r="28.568" gradientTransform="matrix(-0.8829 -0.4695 -0.4131 0.777 229.4492 81.2793)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesfront-gradient-left-4">
+      <stop id="SvgjsStop5369" stop-opacity="0" stop-color="#000000" offset="0.9"/>
+      <stop id="SvgjsStop5370" stop-opacity="0.2" stop-color="#000000" offset="1"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient5374" cx="125.637" cy="84.795" r="10.908" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesfront-gradient-right-0">
+      <stop id="SvgjsStop5375" stop-opacity="1" stop-color="#ffffff" offset="0"/>
+      <stop id="SvgjsStop5376" stop-opacity="1" stop-color="#fdfefe" offset="0.544"/>
+      <stop id="SvgjsStop5377" stop-opacity="1" stop-color="#f6f8f9" offset="0.74"/>
+      <stop id="SvgjsStop5378" stop-opacity="1" stop-color="#eaeff2" offset="0.879"/>
+      <stop id="SvgjsStop5379" stop-opacity="1" stop-color="#d9e3e8" offset="0.992"/>
+      <stop id="SvgjsStop5380" stop-opacity="1" stop-color="#d8e2e7" offset="1"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient5384" cx="123.414" cy="83.449" fx="135.857" fy="83.484" r="17.696" gradientTransform="matrix(-0.9998 0.0208 -0.0166 -0.7998 248.1905 147.6261)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesfront-gradient-right-3">
+      <stop id="SvgjsStop5385" stop-opacity="1" stop-color="#e1ac8f" offset="0"/>
+      <stop id="SvgjsStop5386" stop-opacity="0.3" stop-color="#e1ac8f" offset="0.7"/>
+      <stop id="SvgjsStop5387" stop-opacity="0" stop-color="#f0c7b1" offset="1"/>
+    </radialGradient>
+    <radialGradient id="SvgjsRadialGradient5389" cx="122.351" cy="106.061" r="28.568" gradientTransform="matrix(0.8829 -0.4695 0.4131 0.777 -29.4959 81.0923)" gradientUnits="userSpaceOnUse" class="svga-on-canvas-eyesfront-gradient-right-4">
+      <stop id="SvgjsStop5390" stop-opacity="0" stop-color="#000000" offset="0.9"/>
+      <stop id="SvgjsStop5391" stop-opacity="0.2" stop-color="#000000" offset="1"/>
+    </radialGradient>
+    <linearGradient id="SvgjsLinearGradient5461" x1="100" y1="170" x2="100" y2="132" gradientUnits="userSpaceOnUse" class="svga-on-canvas-chinshadow-gradient-single-0">
+      <stop id="SvgjsStop5462" stop-opacity="0.8" stop-color="#e1ac8f" offset="0"/>
+      <stop id="SvgjsStop5463" stop-opacity="1" stop-color="#c27b55" offset="0.7"/>
+    </linearGradient>
+  </defs>
+  <g id="svga-group-wrapper">
+    <g id="svga-group-backs-single"/>
+    <g id="svga-group-humanwrap-move" transform="matrix(1,0,0,1,0,0)">
+      <g id="svga-group-humanwrap" transform="matrix(0.8499995000000001,0,0,0.8499995000000001,15.00012474447368,16.404039894184095)">
+        <g id="svga-group-hair-back-move" transform="matrix(1,0,0,1,0,0)">
+          <g id="svga-group-hair-back" transform="matrix(1,0,0,1,0,0)">
+            <path id="SvgjsPath3952" d="M100.5,100.5h-1v-1h1V100.5z" fill="#2a232b" stroke-width="none" opacity="1"/>
+          </g>
+        </g>
+        <g id="svga-group-humanbody-single">
+          <path id="SvgjsPath2914" d="M195.417 199.778c-2.196-4.746-8.195-11.779-14.86-13.722 -8.239-2.403-26.837-5.308-33.733-6.923 -5.528-1.296-16.662-11.294-20.564-14.65 -0.7-0.6-1.273-1.839-1.287-2.76 -0.139-10.864 4.195-39.724 4.195-39.724H100 70.833c0 0 4.334 28.859 4.193 39.724 -0.011 0.921-0.587 2.16-1.285 2.76 -3.902 3.356-15.036 13.354-20.564 14.65 -6.897 1.615-25.495 4.619-33.733 7.022 -6.667 1.942-12.664 8.876-14.86 13.622 -3.708 8.008-4.584 22.5-4.584 35h100 100C200 222.278 199.123 207.786 195.417 199.778z" fill="#f0c7b1" stroke-width="none" opacity="1" stroke="none"/>
+          <path id="SvgjsPath2915" d="M159.156 184.058c24.342 3.542 34.586 8.708 37.794 50.721H200c0-12.5-0.877-26.992-4.583-35 -2.196-4.746-8.195-11.779-14.86-13.722 -8.239-2.403-26.837-5.308-33.733-6.923 -5.528-1.296-18.242-12.069-21.643-16.35 3.36 4.704 12.791 15.605 21.054 18.46C150.188 182.61 153.48 183.232 159.156 184.058zM53.766 181.244c8.263-2.854 17.693-13.756 21.054-18.46 -3.4 4.28-16.114 15.054-21.643 16.35 -6.896 1.615-25.494 4.619-33.733 7.022 -6.665 1.942-12.664 8.876-14.86 13.622 -3.706 8.008-4.583 22.5-4.583 35h3.05c3.188-41.744 13.475-47.183 37.794-50.721C46.52 183.232 49.813 182.61 53.766 181.244z" fill="#ffe4d6" stroke-width="none" opacity="1" stroke="none"/>
+          <path id="SvgjsPath2916" d="M95.646 197.62c0 0-5.074-1.609-7.083-2.379 -10.449-4.009-44.395-6.607-44.395-6.607s35.754 1.419 43.644 2.779c-0.458-4.767-3.017-20.004-3.017-20.004s5.149 16.815 6.409 21.057C91.878 194.734 95.646 197.62 95.646 197.62zM106.445 196.278c-0.089 0.073-0.191 0.168-0.302 0.268C106.256 196.461 106.358 196.372 106.445 196.278zM95.646 197.62c0 0 2.893 2.992 4.347 3.03 1.91 0.051 4.828-2.899 6.151-4.104 -1.265 0.957-4.159 1.391-5.31 1.436C99.504 198.033 95.646 197.62 95.646 197.62zM116.664 190.101c-1.545 0.248-4.386 0.789-4.386 0.789l2.287-14.89c-0.646 3.071-4.474 16.211-8.12 20.278 1.91-1.616 6.158-2.391 8.324-2.704 10.236-1.484 10.232-1.483 41.062-4.94C155.831 188.634 126.76 188.479 116.664 190.101z" fill="#e1ac8f" stroke-width="none" opacity="1" stroke="none"/>
+          <path id="SvgjsPath2917" d="M195.417 199.778c-2.196-4.746-8.195-11.779-14.86-13.722 -8.239-2.403-26.837-5.308-33.733-6.923 -5.528-1.296-16.662-11.294-20.564-14.65 -0.7-0.6-1.273-1.839-1.287-2.76 -0.139-10.864 4.195-39.724 4.195-39.724H100 70.833c0 0 4.334 28.859 4.193 39.724 -0.011 0.921-0.587 2.16-1.285 2.76 -3.902 3.356-15.036 13.354-20.564 14.65 -6.897 1.615-25.495 4.619-33.733 7.022 -6.667 1.942-12.664 8.876-14.86 13.622 -3.708 8.008-4.584 22.5-4.584 35h100 100C200 222.278 199.123 207.786 195.417 199.778z" fill="none" stroke="#c27b55" stroke-width="1.5" opacity="1"/>
+        </g>
+        <g id="svga-group-chinshadow-single">
+          <path id="SvgjsPath5460" d="M103.705 170.189c5.292-1.558 13.31-7.012 20.631-12.852 0.352-6.636 1.433-15.887 2.396-23.284 -14.957-2.455-38.464-2.408-53.454 0.081 0.95 7.3 2.01 16.38 2.372 22.974 7.055 5.816 14.789 11.372 20.685 13.087C97.144 170.431 102.896 170.428 103.705 170.189z" fill="url(#SvgjsLinearGradient5461)" opacity="1"/>
+        </g>
+        <g id="svga-group-clothes-single">
+          <path id="SvgjsPath5573" d="M204.771 234.683c-25.073-0.247-64.243-0.011-96.057 0.107l3.764-34.23c0.389-8.876 4.307-11.191 6.412-16.545 8.523-21.672 5.125-15.237 7.986-33.135 9.692 1.334 17.243 21.017 24.338 23.615 -0.013 0.428-0.331 2.404-0.756 4.897C187.119 186.985 200 178.735 204.771 234.683zM93.475 200.708c-1.059-3.137-5.48-7.747-7.551-10.751 -3.566-5.185-6.529-10.696-10.881-23.596 -0.007-0.147-0.702-11.408-1.848-16.205 -5.765 2.713-4.729 7.144-13.599 17.518 -1.859 2.164-5.543 2.829-9.259 5.004 -0.191 2.096-0.221 3.92-0.15 5.647 -9.297 1.408-35.372 7.032-44.861 14.346 -4.399 10.161-14.504 29.002-12.896 42.922 28.234-0.305 71.192-0.595 107.381-0.803 0 0 1.301-19.904-6.86-34.308C93.133 200.552 93.31 200.625 93.475 200.708z" fill="#134970" stroke-width="none" opacity="1" stroke="none"/>
+          <path id="SvgjsPath5574" d="M50.767 179.432c-19.906 5.692-32.87 9.836-42.029 15.092 -4.175 7.794-11.07 18.835-14.845 40.267 -0.052 0.001-0.968-0.093-1.021-0.093 0.093-17.071 7.793-30.803 12.432-41.844 10.206-8.257 32.288-12.34 44.999-14.381C50.34 178.543 50.731 179.366 50.767 179.432zM150.498 179.568c12.711 2.041 31.496 4.167 42.121 10.917 7.375 11.125 11.428 26.836 11.521 43.907 -0.052 0-0.968 0.094-1.021 0.093 -3.774-21.432-8.325-33.206-12.5-41 -9.159-5.256-20.679-7.266-40.585-12.958C150.07 180.462 150.461 179.639 150.498 179.568z" fill="#22587f" stroke-width="none" opacity="1" stroke="none"/>
+          <path id="SvgjsPath5575" d="M119.635 201.16c-1.72-0.976-4.987-1.16-7.002 0.596 0.596-1.756 2.792-3.204 5.675-3.524 9.016 1.769 19.906 13.866 30.706 18.396C138.306 214.798 127.818 205.804 119.635 201.16zM93.667 202.167L92.479 200c-2.057 0.038-6.953 0.482-9.014 2.309 -9.292 8.233-24.119 12.352-30.718 16.655C86.703 209.902 80.203 202.736 93.667 202.167z" fill="#002f51" stroke-width="none" opacity="1" stroke="none"/>
+          <path id="SvgjsPath5576" d="M115.619 198.985c-1.493 0.426-3.061 1.553-3.142 1.574 0.389-8.876 4.307-11.191 6.412-16.545 8.523-21.672 5.125-15.237 7.986-33.135 1.941 0.266 3.798 1.415 5.582 3.085 -1.227 9.5-3.84 17-7.646 25.567 4.461-2.522 9.298-5.611 13.672-8.026C129.391 179.69 118.516 187.081 115.619 198.985zM93.475 200.708c-1.059-3.137-5.48-7.747-7.551-10.751 -3.566-5.185-6.529-10.696-10.881-23.596 -0.007-0.147-0.702-11.408-1.848-16.205 -3.646 1.714-3.34 2.955-5.771 7.11 1.958 10.127 5.915 16.565 11.527 24.985 -4.784-3.154-11.462-8.545-18.071-11.847 11.134 8.348 21.139 18.74 28.653 29.804C91.972 199.465 92.066 200.003 93.475 200.708z" fill="#073b61" stroke-width="none" opacity="1" stroke="none"/>
+          <path id="SvgjsPath5577" d="M193.414 189.487c-8.551-5.06-23.349-8.462-42.541-10.779 0.263-2.481 0.451-4.26 0.454-4.287 -7.108-2.46-15.008-22.473-24.872-23.66 -7.303 44.887-11.722 29.555-15.365 49.24 -0.662 3.579-2.853 32.529-2.965 33.917 -2.574 0.003-5.149 0.006-7.725 0.01 0.547-17.962-6.32-32.084-6.74-32.994 -0.877-3.118-5.549-7.995-7.646-11.038 -5.437-7.907-7.91-15.09-10.862-23.54 0 0-0.482-11.635-1.662-16.356 -5.941 2.726-5.056 6.065-13.979 16.499 -2.523 2.937-5.948 4.17-9.286 6.17 -0.173 1.899-0.199 3.705-0.135 5.452 -34.277 4.349-41.74 11.957-45.889 13.782 -2.94 9.523-12.333 23.334-12.421 43.842 29.629 0 34.064 0.401 123.482 0.081 13.869-0.059 27.733-0.134 41.604-0.223 20.477-0.12 48.669 0.467 48.669 0.467C205.536 214.739 200.869 201.902 193.414 189.487zM117.634 186.921c6.985-13.686 6.985-16.936 9.68-35.623 8.454 2.822 16.191 20.952 23.12 23.187 -4.939 25.516-2.263 35.379-1.91 41.354 -2.575-1.386-4.559-2.651-7.061-4.148 -7.721-4.629-13.066-10.239-21.258-13.583 -2.219-0.936-5.408 0.459-7.36 1.894C113.922 190.583 115.012 192.058 117.634 186.921zM119.286 198.722c0.002-0.015 0.005-0.027 0.007-0.041C119.565 198.637 119.409 198.677 119.286 198.722zM112.756 202.773c0.389-1.978 3.374-3.115 4.863-3.621 -1.926 8.558-4.446 20.08-4.495 34.762 -1.249 0.001-2.499 0.002-3.749 0.003C109.483 232.632 111.173 210.838 112.756 202.773zM98.931 233.931c-0.79 0.001-1.579 0.003-2.369 0.004 1.111-12.801-5.605-23.81-8.693-33.038 0.806-0.082 3.21-0.736 3.875-0.622C93.387 201.514 100.999 221.875 98.931 233.931zM60.03 167.448c9.546-10.978 7.557-13.666 12.843-16.896 0.331 3.15 0.595 6.323 0.761 9.506 0.563 11.263-0.939 3.57 3.492 15.177 6.513 17.058 12.336 18.518 15.318 24.367 -10.575-0.741-12.118 7.192-21.631 10.363 -8.755 3.447-6.354 1.844-18.373 8.736 3.358-23.819-1.74-34.836-1.74-45.571C54.159 171.341 57.48 170.367 60.03 167.448zM-6.797 234.569c1.667-20.667 9.704-34.022 13-41.333 4.645-2.986 20.026-10.925 43.921-14.394 0.336 6.598 1.925 12.369 2.053 18.93 0.238 6.276 0.213 14.08-0.253 21.732 4.45-2.042 8.725-4.477 13.68-6.258 13.805-5.006 11.434-6.111 18.043-10.674 1.583-1.104 1.344-1.118 2.722-1.463 2.565 7.987 10.662 18.897 8.807 32.827C59.931 234.008 24.849 234.226-6.797 234.569zM114.609 233.914c-0.317-12.454 2.644-23.005 4.664-35.122 4.855 0.064 18.32 13.418 30.146 18.427 0.271-4.209-0.175-12.976-0.175-22.733 -0.004-0.29 0.911-8.994 1.529-14.842 11.277 3.239 29.571 3.27 41.841 11.982 4.922 9.443 10.851 20.048 11.255 42.61C175.918 234.002 145.432 233.899 114.609 233.914z" fill="#002642" stroke-width="none" opacity="1" stroke="none"/>
+        </g>
+        <g id="svga-group-head" transform="matrix(1,0,0,1,0,0)">
+          <g id="svga-group-ears-left-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-ears-left" transform="matrix(1,0,0,1,0,0)">
+              <path id="SvgjsPath5404" d="M47.218 81.505c-0.967-2.487-8.082-6.002-11.21-5.447 -3.538 0.627-4.838 4.356-4.369 7.119 1.103 6.487 3.996 9.219 5.296 14.286 1.096 4.273 3.433 6.732 4.588 8.548 1.42 2.228 2.73 7.341 3.023 8.087 0.463 1.18 2.103 4.043 5.002 3.896 3.333-0.172 7.545-6.688 7.614-8.135C57.544 102.009 49.733 87.979 47.218 81.505z" fill="#f0c7b1" stroke="#c27b55" stroke-width="1.5" opacity="1"/>
+              <path id="SvgjsPath5405" d="M47.953 107.96c0 0 0.429-1.071-0.094-2.022 -0.672-1.223-2.423-3.468-2.821-4.811 -0.325-1.098-0.16-3.445-0.213-4.593 -0.094-2.03-1.492-3.42-1.927-4.585 -2.914-7.793-6.792-12.623-9-13.626 -1.633 3.989-0.339 6.907 1.94 13.045 -1.375-8.342-0.054-10.95-0.054-10.95s4.018 3.465 6.001 11.172c0.359 1.391-1.111 4.294-0.83 5.705 0.352 1.772 4.184 5.201 5.257 6.635C47.049 105.047 47.953 107.96 47.953 107.96z" fill="#c27b55" stroke-width="none" opacity="1"/>
+            </g>
+          </g>
+          <g id="svga-group-ears-right-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-ears-right" transform="matrix(1,0,0,1,0,0)">
+              <path id="SvgjsPath5406" d="M152.52 81.505c0.967-2.487 8.082-6.002 11.211-5.447 3.539 0.627 4.838 4.356 4.369 7.119 -1.104 6.487-3.996 9.219-5.297 14.286 -1.096 4.273-3.434 6.732-4.588 8.548 -1.42 2.228-2.73 7.341-3.023 8.087 -0.463 1.18-2.104 4.043-5.002 3.896 -3.332-0.172-7.545-6.688-7.613-8.135C142.193 102.009 150.006 87.979 152.52 81.505z" fill="#f0c7b1" stroke="#c27b55" stroke-width="1.5" opacity="1"/>
+              <path id="SvgjsPath5407" d="M151.785 107.96c0 0-0.43-1.071 0.094-2.022 0.672-1.223 2.424-3.468 2.82-4.811 0.324-1.098 0.16-3.445 0.215-4.593 0.094-2.03 1.49-3.42 1.926-4.585 2.914-7.793 6.793-12.623 9-13.626 1.633 3.989 0.338 6.907-1.939 13.045 1.375-8.342 0.053-10.95 0.053-10.95s-4.018 3.465-6.002 11.172c-0.357 1.391 1.111 4.294 0.83 5.705 -0.352 1.772-4.184 5.201-5.256 6.635C152.689 105.047 151.785 107.96 151.785 107.96z" fill="#c27b55" stroke-width="none" opacity="1"/>
+            </g>
+          </g>
+          <g id="svga-group-faceshape-wrap" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-faceshape-single">
+              <path id="SvgjsPath5457" d="M138.275 134.933c-7.56 7.762-25.273 22.52-34.57 25.257 -0.809 0.238-6.561 0.241-7.37 0.006 -10.402-3.025-26.524-18.002-34.545-25.284 -0.698-0.634-1.876-2.14-2.323-2.97 -6.875-12.77-18.452-54.948-18.462-54.995 -1.3-4.911-1.996-10.066-2.004-15.382C38.949 28.09 66.155 0.919 99.773 0.867c33.621-0.052 60.913 27.033 60.964 60.507 0.009 5.316-0.669 10.473-1.952 15.389 -0.015 0.047-11.729 42.121-18.293 55.052C140.06 132.667 138.942 134.247 138.275 134.933z" fill="#f0c7b1" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath5458" d="M122.923 5.375c19.396 9.496 32.911 30.588 32.944 55.131 0.009 5.316-0.615 10.473-1.796 15.389 -0.013 0.047-10.79 42.121-16.829 55.053 -0.398 0.852-1.426 2.432-2.039 3.117 -6.955 7.762-23.252 22.52-31.805 25.258 -0.744 0.238-6.036 0.24-6.781 0.006 -9.57-3.025-24.402-18.002-31.782-25.285 -0.642-0.633-1.726-2.139-2.137-2.969 -6.325-12.77-16.976-54.948-16.985-54.996 -1.196-4.911-1.836-10.066-1.844-15.382C43.835 36.099 57.351 14.919 76.79 5.389c-22.202 9.066-37.828 30.804-37.789 56.176 0.008 5.316 0.704 10.471 2.004 15.382 0.01 0.047 11.587 42.226 18.462 54.995 0.447 0.83 1.625 2.336 2.323 2.97 8.021 7.282 24.144 22.259 34.545 25.284 0.809 0.235 6.562 0.232 7.37-0.006 9.297-2.737 27.011-17.495 34.57-25.257 0.667-0.686 1.784-2.266 2.217-3.118 6.564-12.932 18.278-55.005 18.293-55.052 1.283-4.916 1.961-10.072 1.952-15.389C160.699 36.059 145.075 14.408 122.923 5.375z" fill="#e8b9a0" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath5459" d="M138.275 134.933c-7.56 7.762-25.273 22.52-34.57 25.257 -0.809 0.238-6.561 0.241-7.37 0.006 -10.402-3.025-26.524-18.002-34.545-25.284 -0.698-0.634-1.876-2.14-2.323-2.97 -6.875-12.77-18.452-54.948-18.462-54.995 -1.3-4.911-1.996-10.066-2.004-15.382C38.949 28.09 66.155 0.919 99.773 0.867c33.621-0.052 60.913 27.033 60.964 60.507 0.009 5.316-0.669 10.473-1.952 15.389 -0.015 0.047-11.729 42.121-18.293 55.052C140.06 132.667 138.942 134.247 138.275 134.933z" fill="none" stroke="#c27b55" stroke-width="1.5" opacity="1"/>
+            </g>
+          </g>
+          <g id="svga-group-mouth-single-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-mouth-single" transform="matrix(1,0,0,1,0,0)">
+              <path id="SvgjsPath5210" d="M100.002 140.198c-5.219 0-6.442-2.251-6.442-2.251 6.903 1.402 12.884-0.096 12.884-0.096S104.592 140.198 100.002 140.198z" fill="url(#SvgjsLinearGradient5211)" opacity="1"/>
+              <path id="SvgjsPath5214" d="M83.436 134.045c5.529-0.367 8.751-1.781 11.503-1.845 1.422-0.035 2.951 0.575 4.485 0.771 1.066 0.136 4.094-0.765 5.184-0.771 2.852-0.017 7.046 1.422 11.926 1.845 0.175 0.015 0 0 0 0s-7.268 4.597-16.549 4.597C89.479 138.642 83.436 134.045 83.436 134.045S83.259 134.056 83.436 134.045z" fill="#da7c87" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath5215" d="M116.994 133.91c-0.061-0.109-0.606-0.244-0.82-0.238 -0.392 0.011-0.842 0.262-1.648 0.271 -0.933 0.01-5.871 0.402-7.197 0.356 -2.674-0.094-4.802 0.44-7.342 0.44 -2.542 0-4.853-0.583-7.524-0.489 -1.327 0.048-6.085-0.297-7.019-0.308 -0.807-0.01-1.119-0.273-1.463-0.308 -0.241-0.023-0.833 0.11-0.95 0.222 -0.104 0.102 0.115 0.445 0.262 0.527 0.357 0.195 1.425 0.16 2.132 0.169 0.974 0.012 5.744 0.355 7.091 0.308 2.611-0.093 4.94 0.544 7.471 0.544 2.53 0 4.676-0.587 7.287-0.494 1.343 0.048 6.295-0.347 7.271-0.357 0.706-0.009 1.715-0.039 2.075-0.193C116.792 134.288 117.055 134.021 116.994 133.91z" fill="#ac2e3d" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath5216" d="M88.386 135.437c9.831-0.289 6.257 0.233 10.942 0.392 2.369 0.085 9.812-0.924 12.748-0.869C103.053 138.602 94.777 138.226 88.386 135.437zM111.654 133.622c-5.961-1.694-10.568-0.265-11.703-0.185 -3.81 0.264-1.78-2.049-10.986 0.24 8.953-0.126 6.496 0.491 10.721 0.567C101.363 134.273 109.856 133.553 111.654 133.622z" fill="#e28c96" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath5217" d="M92.763 135.67c4.978-0.262 4.379 1.022 10.036 0.243 1.552-0.212 2.205-0.288 3.822-0.221C101.79 137.59 96.695 137.254 92.763 135.67z" fill="#e99ca5" stroke-width="none" opacity="1"/>
+            </g>
+          </g>
+          <g id="svga-group-eyes-left-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-eyes-left" transform="matrix(1,0,0,1,0,0)">
+              <g id="svga-group-eyesback-left">
+                <path id="SvgjsPath5336" d="M60.505 80.842c0.241 2.336 0.667 11.497 13.706 11.489 5.836-0.005 13.361-3.612 13.211-8.063 0 0-6.704-7.009-14-7.009S60.504 80.831 60.505 80.842z" fill="url(#SvgjsRadialGradient5337)" opacity="1"/>
+              </g>
+              <g id="svga-group-eyesiriswrapper-left" transform="matrix(1,0,0,1,0.5,0.75)">
+                <g id="svga-group-eyesiriscontrol-left" transform="matrix(1,0,0,1,0,0)">
+                  <g id="svga-group-eyesiris-left" transform="matrix(1,0,0,1,0,0)">
+                    <path id="SvgjsPath5394" d="M79.788 85.588c-0.869 3.192-4.162 5.073-7.361 4.196 -3.197-0.876-5.084-4.178-4.214-7.371 0.869-3.195 4.168-5.076 7.365-4.198C78.772 79.09 80.659 82.392 79.788 85.588z" fill="#115a0c" stroke="#032c00" stroke-width="0.5" opacity="1"/>
+                    <path id="SvgjsPath5395" d="M78.855 85.662c-0.849 2.452-3.407 3.881-5.899 3.199 -2.3-0.631-3.752-2.838-3.563-5.171 0.853-0.067 1.787-0.087 2.756-0.04 -0.01 0.033-0.027 0.062-0.036 0.096 -0.306 1.125 0.407 2.305 1.592 2.63 1.189 0.326 2.401-0.326 2.707-1.451 0.039-0.147 0.06-0.294 0.065-0.439C77.29 84.782 78.088 85.165 78.855 85.662z" fill="#1e6919" stroke-width="none" opacity="1" stroke="none"/>
+                    <path id="SvgjsPath5396" d="M74.813 82.21c-1.203-0.344-2.429 0.342-2.739 1.54 -0.311 1.191 0.412 2.438 1.614 2.783 1.204 0.345 2.43-0.342 2.741-1.534C76.742 83.801 76.016 82.555 74.813 82.21zM75.075 86.442c-0.5 0.156-1.017-0.051-1.154-0.462 -0.133-0.411 0.163-0.867 0.667-1.019 0.503-0.156 1.019 0.051 1.157 0.459C75.881 85.831 75.582 86.287 75.075 86.442z" fill="#000000" stroke-width="none" opacity="0.9"/>
+                    <path id="SvgjsPath5397" d="M70.811 87.159c-0.37 0.222-0.922 0.023-1.238-0.447 -0.316-0.466-0.269-1.024 0.102-1.247 0.368-0.219 0.925-0.021 1.239 0.446C71.226 86.378 71.181 86.938 70.811 87.159z" fill="#ffffff" stroke-width="none" opacity="0.6"/>
+                    <path id="SvgjsPath5398" d="M78.71 83.74c-0.846 0.507-2.117 0.051-2.837-1.02 -0.72-1.072-0.612-2.352 0.234-2.857 0.844-0.509 2.118-0.053 2.834 1.019C79.66 81.954 79.556 83.232 78.71 83.74z" fill="#ffffff" stroke-width="none" opacity="0.8"/>
+                  </g>
+                </g>
+              </g>
+              <g id="svga-group-eyesfront-left">
+                <path id="SvgjsPath5361" d="M55.199 83.999c0 13.807 8.507 25 19 25s19-11.193 19-25 -8.507-25-19-25S55.199 70.192 55.199 83.999zM60.505 80.842c-0.001-0.011 5.621-3.583 12.917-3.583s14 7.009 14 7.009c0.15 4.45-7.375 8.058-13.211 8.063C61.172 92.339 60.746 83.179 60.505 80.842z" fill="#f0c7b1" stroke-width="none" opacity="1" stroke="none"/>
+                <path id="SvgjsPath5362" d="M58.098 84.073c-0.078 7.733 8.894 13.964 18.553 13.926 9.657-0.044 17.473-6.342 17.446-14.077C94.072 76.191 86.23 69.959 76.57 70 66.909 70.043 58.202 73.495 58.098 84.073zM60.505 80.842c-0.001-0.011 5.621-3.583 12.917-3.583s14 7.009 14 7.009c0.15 4.45-7.375 8.058-13.211 8.063C61.172 92.339 60.746 83.179 60.505 80.842z" fill="url(#SvgjsRadialGradient5363)" opacity="1"/>
+                <path id="SvgjsPath5367" d="M60.505 80.842c0.241 2.336 0.667 11.497 13.706 11.489 5.836-0.005 13.361-3.612 13.211-8.063 0 0-6.704-7.009-14-7.009S60.504 80.831 60.505 80.842z" fill="url(#SvgjsRadialGradient5368)" opacity="1"/>
+                <path id="SvgjsPath5371" d="M88.143 81.99c-0.995-1.708-5.02-5.623-10.804-6.99C84.38 76.245 86.134 78.672 88.143 81.99z" fill="#c27b55" stroke-width="none" opacity="1" stroke="none"/>
+                <path id="SvgjsPath5372" d="M60.707 81.467c0.099 1.422 1.79 5.64 2.534 6.819 -2.275-1.08-2.705-4.186-7.099-8.199 14.067-7.027 24.748-5.142 32 5.061C78.764 76.573 71.396 75.496 60.707 81.467zM83.776 89.792c0 0-6.42 2.373-9.923 2.41 -3.503 0.039-8.483-1.906-8.483-1.906s4.851 2.565 8.483 2.57C77.487 92.872 83.776 89.792 83.776 89.792z" fill="#000000" stroke-width="none" opacity="1" stroke="none"/>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-eyes-right-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-eyes-right" transform="matrix(1,0,0,1,0,0)">
+              <g id="svga-group-eyesback-right">
+                <path id="SvgjsPath5344" d="M139.097 80.842c-0.241 2.336-0.667 11.497-13.706 11.489 -5.836-0.005-13.361-3.612-13.211-8.063 0 0 6.704-7.009 14-7.009S139.098 80.831 139.097 80.842z" fill="url(#SvgjsRadialGradient5345)" opacity="1"/>
+              </g>
+              <g id="svga-group-eyesiriswrapper-right" transform="matrix(1,0,0,1,-0.5,0.75)">
+                <g id="svga-group-eyesiriscontrol-right" transform="matrix(1,0,0,1,0,0)">
+                  <g id="svga-group-eyesiris-right" transform="matrix(1,0,0,1,0,0)">
+                    <path id="SvgjsPath5399" d="M131.788 85.588c-0.869 3.192-4.162 5.073-7.362 4.196 -3.196-0.876-5.084-4.178-4.214-7.371 0.869-3.195 4.169-5.076 7.365-4.198C130.772 79.09 132.658 82.392 131.788 85.588z" fill="#115a0c" stroke="#032c00" stroke-width="0.5" opacity="1"/>
+                    <path id="SvgjsPath5400" d="M130.855 85.662c-0.849 2.452-3.408 3.881-5.899 3.199 -2.3-0.631-3.753-2.838-3.563-5.171 0.854-0.067 1.787-0.087 2.756-0.04 -0.01 0.033-0.027 0.062-0.036 0.096 -0.306 1.125 0.407 2.305 1.593 2.63 1.189 0.326 2.401-0.326 2.707-1.451 0.038-0.147 0.06-0.294 0.065-0.439C129.29 84.782 130.089 85.165 130.855 85.662z" fill="#1e6919" stroke-width="none" opacity="1" stroke="none"/>
+                    <path id="SvgjsPath5401" d="M126.813 82.21c-1.202-0.344-2.429 0.342-2.738 1.54 -0.312 1.191 0.412 2.438 1.613 2.783 1.204 0.345 2.431-0.342 2.742-1.534C128.741 83.801 128.016 82.555 126.813 82.21zM127.075 86.442c-0.5 0.156-1.018-0.051-1.154-0.462 -0.133-0.411 0.163-0.867 0.667-1.019 0.503-0.156 1.019 0.051 1.157 0.459C127.881 85.831 127.582 86.287 127.075 86.442z" fill="#000000" stroke-width="none" opacity="0.9"/>
+                    <path id="SvgjsPath5402" d="M122.812 87.159c-0.37 0.222-0.923 0.023-1.238-0.447 -0.316-0.466-0.27-1.024 0.102-1.247 0.367-0.219 0.926-0.021 1.239 0.446C123.227 86.378 123.181 86.938 122.812 87.159z" fill="#ffffff" stroke-width="none" opacity="0.6"/>
+                    <path id="SvgjsPath5403" d="M130.71 83.74c-0.846 0.507-2.116 0.051-2.837-1.02 -0.72-1.072-0.612-2.352 0.234-2.857 0.845-0.509 2.117-0.053 2.834 1.019C131.66 81.954 131.557 83.232 130.71 83.74z" fill="#ffffff" stroke-width="none" opacity="0.8"/>
+                  </g>
+                </g>
+              </g>
+              <g id="svga-group-eyesfront-right">
+                <path id="SvgjsPath5382" d="M125.402 58.999c-10.493 0-19 11.193-19 25s8.507 25 19 25 19-11.193 19-25S135.896 58.999 125.402 58.999zM125.391 92.331c-5.836-0.005-13.361-3.612-13.211-8.063 0 0 6.704-7.009 14-7.009s12.918 3.572 12.917 3.583C138.855 83.179 138.43 92.339 125.391 92.331z" fill="#f0c7b1" stroke-width="none" opacity="1" stroke="none"/>
+                <path id="SvgjsPath5383" d="M123.031 70c-9.66-0.041-17.502 6.192-17.526 13.922 -0.026 7.735 7.789 14.033 17.446 14.077 9.659 0.038 18.631-6.193 18.553-13.926C141.399 73.495 132.692 70.043 123.031 70zM125.391 92.331c-5.836-0.005-13.361-3.612-13.211-8.063 0 0 6.704-7.009 14-7.009s12.918 3.572 12.917 3.583C138.855 83.179 138.43 92.339 125.391 92.331z" fill="url(#SvgjsRadialGradient5384)" opacity="1"/>
+                <path id="SvgjsPath5388" d="M139.097 80.842c-0.241 2.336-0.667 11.497-13.706 11.489 -5.836-0.005-13.361-3.612-13.211-8.063 0 0 6.704-7.009 14-7.009S139.098 80.831 139.097 80.842z" fill="url(#SvgjsRadialGradient5389)" opacity="1"/>
+                <path id="SvgjsPath5392" d="M111.459 81.99c0.995-1.708 5.02-5.623 10.804-6.99C115.222 76.245 113.468 78.672 111.459 81.99z" fill="#c27b55" stroke-width="none" opacity="1" stroke="none"/>
+                <path id="SvgjsPath5393" d="M111.459 85.148c7.252-10.203 17.933-12.088 32-5.061 -4.394 4.013-4.823 7.119-7.099 8.199 0.744-1.179 2.436-5.397 2.534-6.819C128.205 75.496 120.838 76.573 111.459 85.148zM125.748 92.866c3.633-0.005 8.483-2.57 8.483-2.57s-4.98 1.944-8.483 1.906c-3.503-0.038-9.923-2.41-9.923-2.41S122.114 92.872 125.748 92.866z" fill="#000000" stroke-width="none" opacity="1" stroke="none"/>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-facehighlight-single">
+            <path id="SvgjsPath2906" d="M141 113.974c0.035 22.622-18.292 40.994-40.938 41.025 -22.642 0.037-41.028-18.273-41.063-40.9 -0.035-22.62 18.292-41.064 40.937-41.1C122.579 72.964 140.967 91.349 141 113.974z" fill="url(#SvgjsRadialGradient2907)" opacity="1"/>
+            <path id="SvgjsPath2910" d="M137.5 53.999c0 20.711-16.789 37.5-37.499 37.5 -20.711 0-37.501-16.789-37.501-37.5s16.79-37.5 37.501-37.5C120.711 16.499 137.5 33.288 137.5 53.999z" fill="url(#SvgjsRadialGradient2911)" opacity="1"/>
+          </g>
+          <g id="svga-group-eyebrows-left-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-eyebrows-left-rotate" transform="matrix(1,0,0,1,0,0)">
+              <g id="svga-group-eyebrows-left" transform="matrix(1,0,0,1,0,0)">
+                <path id="SvgjsPath5138" d="M52.488 73.87c7.475-9.383 20.338-7.822 30.878-6.314 2.681 0.384 5.441 0.672 8.07 1.336 1.884 0.475 3.365 2.622 1.851 4.356 -0.708 0.825-2.253 0.672-3.207 0.652C77.459 73.645 63.193 66.387 52.488 73.87z" fill="#2a232b" stroke-width="none" opacity="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-eyebrows-right-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-eyebrows-right-rotate" transform="matrix(1,0,0,1,0,0)">
+              <g id="svga-group-eyebrows-right" transform="matrix(1,0,0,1,0,0)">
+                <path id="SvgjsPath5139" d="M147.577 73.49c-2.164-1.448-4.454-2.47-7.043-2.889 -9.497-1.54-27.586 4.79-32.341 3.45 -2.912-0.822-2.323-3.739-1.035-4.458 0.775-0.433 0.99-0.422 7.909-1.612C126.824 65.961 139.988 64.355 147.577 73.49z" fill="#2a232b" stroke-width="none" opacity="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-nose-single-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-nose-single" transform="matrix(1,0,0,1,0,0)">
+              <path id="SvgjsPath5292" d="M99.757 119.999c-0.91 0-1.88 0.006-2.721-0.371 -0.899-0.405-1.498-0.567-2.429-0.902 -0.899-0.324-1.98 0.466-2.88 0.541 -0.728 0.06-1.559-0.149-2.003-0.719 -1.499-1.917 0.286-3.096 0.286-3.096s-0.583 1.346-0.212 1.942c0.319 0.509 0.789 0.925 1.369 1.063 0.968 0.235 1.889-0.476 2.839-0.55 1.062-0.083 1.833-0.102 2.602 0.519 0.767 0.619 1.606 0.737 2.582 0.787 0.906 0.049 1.857 0.088 2.708-0.263 0.743-0.303 1.365-0.835 2.062-1.226 1.482-0.831 2.647 0.212 4.194 0.633 1.238 0.338 2.575-0.86 2.09-2.225 -0.277-0.777-0.232-1.24-0.232-1.24s1.181 0.535 1.11 1.854c-0.089 1.642-1.521 2.794-3.137 2.361 -0.794-0.21-1.65-0.808-2.493-0.656 -0.857 0.153-1.517 0.154-2.229 0.622C102.187 119.781 101.047 119.999 99.757 119.999z" fill="#c27b55" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath5293" d="M93.316 110.211c0 0 3.245-4.518 6.193-4.573 2.73-0.05 6.324 3.968 6.324 3.968s-3.311-1.387-6.588-1.156C96.32 108.655 93.316 110.211 93.316 110.211z" fill="#e8b9a0" stroke-width="none" opacity="1"/>
+            </g>
+          </g>
+          <g id="svga-group-beardwrap" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-beard-single-move" transform="matrix(1,0,0,1,0,0)">
+              <g id="svga-group-beard-single" transform="matrix(1,0,0,1,0,0)">
+                <path id="SvgjsPath4015" d="M100.58 180.78c-4.91-0.01-6.91-2.7-9.68-6.42 -1.61-2.17-3.44-4.63-6.24-7.19 -0.62-0.58-2.7-2.54-3.23-3.59 -6.28-0.92-7.41-2.74-9.9-6.71 -1.05-1.68-2.35-3.76-4.38-6.31 -2.62-3.2-4.81-5.69-6.75-7.89C51.02 132 49.06 129.78 43.66 96.53c-0.52-3.09-1.1-7.04-1.23-8.14 0.13-0.05 0.26-0.11 0.38-0.18 1.29 0.18 3.04 0.39 5.92 0.59 0.84 5.28 2.39 8.4 3.89 11.42 1.03 2.07 2.1 4.21 2.89 7 2.21 7.51 6.37 11.3 10.39 14.97 4.5 4.1 9.14 8.34 10.96 17.81l0.01 0.06 0.06 0.02c3.98 1.11 5.6 3.71 7.8 7.88l0.08 0.16 0.09-0.15c0.51-0.86 0.81-1.48 1.04-1.97 0.79-1.68 0.89-1.89 7-5.27 1.62-0.91 2.43-1.52 3.26-2.23l0.35 0.15c0.74 0.28 1.63 0.43 2.6 0.43 1.11 0 2.22-0.21 2.92-0.54 0.94 1.32 1.99 1.72 3.31 2.24 1.86 0.72 4.17 1.62 7.43 5.51l0.05 0.06 0.07-0.04c2.71-1.44 4.42-3.58 6.23-5.84 1.88-2.35 3.83-4.78 7.13-6.87 2.4-5.56 5.62-8.89 8.73-12.12 3.87-4.01 7.87-8.16 10.04-16.49 0.54-2.04 3.24-8.84 4.85-12.9 0.6-1.52 1.05-2.65 1.19-3.03 2.54-0.01 4.77-0.4 6.83-0.81 -1.15 4.21-1.19 8.14-1.24 12.31 -0.06 5.81-0.13 11.81-3.2 19.28 -7.67 19.92-11.78 23.46-16.13 27.22 -2.36 2.04-4.8 4.14-7.85 9.09 -2.63 4.66-4.68 5.67-9.52 6.33l-0.06 0.01 -0.02 0.06c-1.23 4.21-5.54 7.24-10.1 10.45 -2.95 2.07-6 4.22-8.28 6.77 -0.05 0.05-0.14 0.16-0.25 0.28C101.08 180.29 100.74 180.68 100.58 180.78z" fill="#2a232b" stroke-width="none" opacity="1"/>
+                <path id="SvgjsPath4016" d="M140.72 136.54c-6 10-13.72 11.46-17.72 22.46 0-4-1-6-2-10 -6.63 24.87-13 17-19 26 1-3-1-6-1-9 0 3-2 6-2 9 0-5-3-8-5-12 1 5 3 8 3 13 -6.79-11.51-13.63-13.22-19-23 0 2 0 5 0 7 -14.01-27.71-24.45-22.31-35.16-68.01 0.22 1.45 0.48 3.1 0.72 4.56 6.52 40.1 8.18 35.27 23.53 54.07 6.79 8.53 5.35 11.75 14.26 13 0.5 1.01 2.42 2.86 3.25 3.62 7.75 7.1 8.23 13.64 16.01 13.64 0.24-0.12 0.83-0.86 1.02-1.05 5.75-6.43 16.35-10.23 18.4-17.25 4.76-0.66 6.91-1.64 9.59-6.38 8.48-13.78 12.02-5.26 23.98-36.32 3.45-8.39 3.12-16.28 3.23-23.56C153.13 113.88 147.41 124.98 140.72 136.54z" fill="#1b141c" stroke-width="none" opacity="1"/>
+                <path id="SvgjsPath4017" d="M151.04 88.97c-0.34 1-5.3 13.14-6.06 16 -3.9 14.93-13.38 16.08-18.73 28.55 -6.57 4.15-7.92 9.81-13.36 12.7 -5.62-6.73-8.55-4.59-10.78-7.81 -1.18 0.61-3.74 0.83-5.5 0.14H96.6c-0.14-0.06-0.27-0.11-0.41-0.17 -0.79 0.69-1.6 1.3-3.29 2.26 -7.9 4.37-5.79 3.45-8.08 7.28 -2.05-3.88-3.71-6.77-7.86-7.93 -3.43-17.94-16.67-16.88-21.35-32.79 -1.93-6.85-5.38-9.5-6.79-18.49 0 0-0.25-0.14-0.24 0.9 0.7 6.03 5.15 20.02 9.57 26.51 6.02 8.93 14.69 10.58 18.27 24.27 6.22 1.96 7.03 6.94 8.09 8.65 -0.71 2.95-0.14 7.2 2.58 9.92 0 0-0.49-0.67-0.6-0.9 -1.12-1.83-1.57-4.15-1.47-6.27 0.38-7.05 4.17-7.78 8.27-10.49 0.49-0.32 2.82-2 3.04-2.47 1.69 0.9 3.98 0.76 5.7 0.14 0.02 0.02 0.04 0.05 0.05 0.08 2.84 3.35 5.17 1.8 10.08 7.59 2.21 2.31 1.4 4.1 1.4 8.75 0.56-2.52 1.29-6.51-0.08-8.39 5.1-2.37 9.09-10.91 13.56-13.37 5.79-11.59 15.38-13.26 19.21-28.33 1.85-7.04 3.47-8.37 5.27-16.02C151.57 88.85 151.04 88.97 151.04 88.97zM157.71 88.27c-3.27 7.61-1.03 17.75-6.32 30.79 -12.34 32.03-16.09 21.52-23.57 37.21 -1.46 3.42-3.99 4.78-7.55 5.55 0.83-3.41 0.65-3.05 0.7-5.88 -1.51 13.1-10.32 13.24-18.38 21.27 -1.08 1.19-2.37 2.87-2.37 2.87 -5.74 0-9.13-8.55-13.13-12.02 -3.77-3.27-6.42-4.43-7.13-9.37 0 1-0.04 2.38 1 4.29 -7.32-1.44-6.42-5.56-12.28-13.71 -8.01-10.92-15.07-14.81-18.32-29.52 -1.04-4.71-7.52-30.22-7.58-31.63 -0.01 0-0.01 0.01-0.02 0.01 -0.14 0.08-0.29 0.14-0.44 0.2 0.11 1 0.71 5.07 1.24 8.22 6.52 40.1 8.18 35.27 23.53 54.07 6.79 8.53 5.35 11.75 14.26 13 0.5 1.01 2.42 2.86 3.25 3.62 7.75 7.1 8.23 13.64 16.01 13.64 0.24-0.12 0.83-0.86 1.02-1.05 5.75-6.43 16.35-10.23 18.4-17.25 4.76-0.66 6.91-1.64 9.59-6.38 8.48-13.78 12.02-5.26 23.98-36.32 5.31-12.91 1.65-21.63 4.48-31.75L157.71 88.27z" fill="#000000" stroke-width="none" opacity="1"/>
+              </g>
+            </g>
+          </g>
+          <g id="svga-group-mustache-single-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-mustache-single" transform="matrix(1,0,0,1,0,0)">
+              <path id="SvgjsPath4006" d="M115.21 138.36c-3.66 0-8.39-1.01-15.21-5.26 -1.9 1.14-7.32 5.17-15.15 5.17 -10.15 0-18.42-6.98-19.73-16.64 13.91 8.38 15.18 1.06 27.43-1.35 1.01-0.18 2.33-0.34 3.34-0.17l0.04-0.05c5.29 1.54 5.27 0.44 8.1 0.06v-0.01c2.58-0.1 3.37-0.52 9.87 2.36 8.99 3.97 12.79 4.08 20.97-0.84C133.66 130.49 125.65 138.36 115.21 138.36z" fill="#2a232b" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath4007" d="M100 128c-11.21 10.46-26.82 5.27-34.86-5.64 2.4 13.83 18.81 21.33 33.68 11.58 0.4-0.25 0.8-0.5 1.18-0.73 9.15 5.61 16.86 7.34 26.17 2.1 5.41-3.66 8.23-9.04 8.83-13.87 -0.03 0.02-0.06 0.03-0.08 0.05C128.58 133.79 110.54 138.46 100 128z" fill="#1b141c" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath4008" d="M65.55 122.58c9.71 12.19 24.14 14.03 34.45 5.45C90.19 137.3 74.83 135.91 65.55 122.58zM118.27 133.15c-8.2 1-12.38-0.29-18.27-5.12 6.17 5.74 10.77 6.67 18.39 5.73 8.07-2.15 11.68-4.87 16.06-11.18C129.89 128.33 126.31 130.99 118.27 133.15z" fill="#0c080c" stroke-width="none" opacity="1"/>
+              <path id="SvgjsPath4009" d="M131.43 123.45c-11.64 5.96-19.05-4.71-27.28-3.43 -0.02 0-0.22 0-0.22 0.02 -1.81 0.24-3.01 1.1-5.41 0.56 -0.07-0.01-2.63-0.65-2.67-0.59 -0.98-0.16-2.34 0.01-3.32 0.18 -12.37 2.43-13.45 9.8-27.54 1.25 1.81 14.42 18.63 22.47 33.83 12.51 0.4-0.25 0.8-0.5 1.18-0.73 9.15 5.61 16.86 7.34 26.17 2.1 5.41-3.66 8.23-9.04 8.83-13.87C133.92 122.1 132.47 122.9 131.43 123.45zM100.01 132.31c-1 0.42-7.44 3.81-13.99 4.09 -8.37 0.87-16.86-5.19-19.86-13.21 11.3 8.18 15.02 1.39 26.64-1.73 4.69-1.16 3.05 0.47 10.21-0.31 8.29-0.92 17.24 9.23 26.34 4.77 1.68-0.76 3.17-1.76 4.49-2.71C130.49 131.78 120 142.25 100.01 132.31z" fill="#000000" stroke-width="none" opacity="1"/>
+            </g>
+          </g>
+          <g id="svga-group-hair-front" transform="matrix(1,0,0,1,0,0)">
+            <path id="SvgjsPath3954" d="M152.983 98.604c-4.563-12.435 0.717-31.506-8.205-45.615 -4.064-6.762-7.597-11.409-6.95-19.276l-0.368-0.124c-0.862 1.352-1.994 2.82-2.745 3.76 0.427-1.091 1.123-2.762 1.753-4.023l-0.332-0.218c-2.585 3.073-4.805 4.649-7.859 5.5 3.3-2.32 6.949-6.357 8.546-8.595l-0.271-0.284c-11.319 7.283-24.164 7.382-35.496 7.471 -10.227 0.076-16.579-0.155-23.953-4.441 -5.321 1.764-9.511 1.539-14.116-1.635 -14.414 27.947-8.01 13.957-16.627 65.764 -5.004-6.67-6.458-10.912-7.642-17.267 -0.313-2.027-0.619-5.154-0.429-7.215l-0.063-0.065c-4.452-9.77-6.553-15.333-5.495-34.712 0.785-8.04 2.533-14.076 7.574-20.398 -0.665-3.435-0.729-6.898-0.277-10.21 -2.64-4.827-4.457-9.795-5.165-11.57 3.688 2.823 3.993 2.986 7.07 3.957 0.704-1.937 1.73-3.861 2.387-4.865 0.297 2.238 0.533 3.75 1.203 5.925 0.228 0.055 1.313 0.349 1.66 0.442 -0.199-1.324-0.381-1.938-0.353-3.125 0.571 1.302 1.053 1.604 2.71 3.626 1.834 0.385 1.394 0.328 1.944 0.328 -2.669-4.183-4.47-7.885-4.927-13.515 3.653 2.081 8.764 3.27 14.101 3.27 12.539 0 25.369-9.412 43.169-9.412 15.425 0 28.771 8.558 34.683 18.303 -0.006-2.514-0.113-4.594 0.794-7.178 0 0 0.105 3.705 0.105 6.592l0.396 0.037c0.62-3.301 1.928-6.115 4.088-8.773 -1.918 5.158-1.188 2.404-3.334 8.702l0.348 0.187c1.431-1.839 2.603-3.139 6.019-4.862 -2.468 2.473-4.355 3.89-5.522 5.639l0.301 0.259c1.456-1.32 2.971-1.82 4.512-0.613 -2.481-0.902-3.946 0.679-5.648 2.675 6.619 1.091 10.21 4.91 14.864 10.015 10.712 12.352 13.533 24.411 7.723 41.506 2.435 5.263 2.06 17.125-3.375 26.686C159.779 86.867 155.941 93.789 152.983 98.604z" fill="#2a232b" stroke-width="none" opacity="1"/>
+            <path id="SvgjsPath3955" d="M62.299 30.371c0.359 0.334 0.718 0.668 1.074 1.004 -0.129-0.085-0.258-0.164-0.388-0.253 -14.414 27.947-8.01 13.957-16.627 65.764 -5.004-6.67-6.458-10.912-7.642-17.267 -0.313-2.027-0.619-5.154-0.429-7.215l-0.063-0.065c-4.452-9.77-6.553-15.333-5.495-34.712 0.785-8.04 2.533-14.076 7.574-20.398 -0.654-3.378-0.72-6.782-0.293-10.044 0.597 0.874 1.223 1.725 1.863 2.565C42.304 12.374 42.669 14.933 42 17c-9.539 29.478-4 43 2 64 -2.464-15.931-7.142-36.185 5.619-48C44.168 46.096 45.673 52.034 47 61 47.917 49.082 52.195 37.996 62.299 30.371zM155.432 13.06c-0.376-0.412-0.742-0.812-1.106-1.207 -0.382 0.255-0.774 0.489-1.159 0.737 14.956 30.661 0.594 27.717 4.017 41.409C161.183 63.999 156 70 156 80c0-15-0.681-25.439-8.96-37.175 -2.796-3.963-3.581-17.423-5.465-24.074C118.373 33 84.002 35.981 47.916 7.183c17 6 51.649 1.35 63.543-6.316 -13.558 2.461-41.862 2.608-54.59-2.631 30.5-2.37 30.131-12.16 56.131-14C100.5-20.431 73.196-8.51 60.658-8.51c-5.336 0-10.447-1.188-14.101-3.27 0.457 5.63 2.258 9.333 4.927 13.515 -0.551 0-0.11 0.057-1.944-0.328 -1.658-2.022-2.14-2.325-2.71-3.626 -0.029 1.187 0.154 1.801 0.353 3.125 -0.347-0.093-1.433-0.387-1.66-0.442 -0.67-2.175-0.906-3.687-1.203-5.925 -0.656 1.004-1.683 2.928-2.387 4.865 -3.078-0.971-3.382-1.134-7.07-3.957 0.708 1.775 2.525 6.744 5.165 11.57 -0.007 0.055-0.009 0.111-0.016 0.166 6.305 9.235 15.169 16.471 23.363 24.192 4.454 2.924 8.558 3.096 13.729 1.382 7.374 4.286 13.727 4.517 23.953 4.441 11.332-0.088 24.177-0.188 35.496-7.471l0.271 0.284c-1.597 2.238-5.246 6.275-8.546 8.595 3.055-0.852 5.274-2.428 7.859-5.5l0.332 0.218c-0.63 1.262-1.326 2.932-1.753 4.023 0.751-0.94 1.883-2.408 2.745-3.76l0.368 0.124c-0.646 7.868 2.886 12.514 6.95 19.276 8.922 14.109 3.643 33.181 8.205 45.615 2.958-4.815 6.796-11.736 6.796-17.352 5.435-9.561 5.81-21.423 3.375-26.686C168.965 37.471 166.144 25.412 155.432 13.06zM156.165 38.709c-0.33-9.524-6.633-21.612-6.633-21.612 -2.946-5.204-5.579-7.687-9.996-8.695 12.426 0.619 17.306 19.179 16.769 28.875C156.254 38.177 156.165 38.709 156.165 38.709zM127.907-1.507c3.283 2.663 4.067 3.423 7.296 7.909 -16.653-29.889-49.333-7.27-59.667-8C86.041 0.573 109.793-14.79 127.907-1.507zM136.369 11.485C116.408 28.033 85.929 21.023 61 13.21 85.827 24.581 117.435 30.734 136.369 11.485zM57.869 29.485c-6.539 3.425-9.616 12.05-9.9 17.75C49.19 42.316 52.854 33.291 57.869 29.485zM49.619 24.735c-9.359 5.699-11.174 18.771-10.25 29.75C40.353 44.343 42.181 31.11 49.619 24.735zM117.064 12.34c-1.006 0.215-7.259 1.072-10.672 1.195 -2.661 0.155-13.037 0.328-22.391-0.048 9.655 2.069 15.454 2.454 22.496 2.045 8.106-0.293 15.36-1.898 21.371-6.796C123.633 11.067 121.828 11.399 117.064 12.34zM150.609 38.885c0 0-0.256-0.441-0.588-1.102 -0.911-1.527-1.945-5.681-5.938-18.736 2.966 24.195 7.817 19.782 9.991 32.283C154.075 46.834 153.761 44.529 150.609 38.885z" fill="#1b141c" stroke-width="none" opacity="1"/>
+            <path id="SvgjsPath3956" d="M157.853 68.131c0.364-3.246 0.217-1.758 0.257-3.61 0.306-6.244-3.426-11.479-1.154-18.987 1.854-5.453 2.925-6.308 2.113-15.801 -0.119-1.37-0.474-4.774-1.102-5.998 0.856 1.489 1.422 4.245 1.725 5.934 1.687 9.543 0.268 10.992-1.521 16.267C155.781 53.906 160.368 57.422 157.853 68.131zM141.575 18.751c1.117 30.37 7.276 23.316 12.717 41.752C150.598 38.757 147.181 56.786 141.575 18.751zM48.369 34.235c-9.19 11.563-8.262 19.899-6 37C42.165 53.925 40.055 47.355 48.369 34.235zM41.772 17.714c-5.274 16.319-6.429 23.684-3.897 41.285C37.406 41.353 37.518 37.458 41.772 17.714zM61.952 30.641C52.322 37.56 47.295 50.217 47 61 48.482 50.695 54.012 37.697 61.952 30.641zM128.855 24.594c-12.051 4.437-31.667 5.625-45.988 1.322C71.706 22.661 54.279 11.723 44.905 4.845c8.498 6.765 23.471 16.807 33.926 20.776 10.863 4.059 27.887 5.567 41.081 2.245 9.248-2.324 14.041-4.52 21.663-9.114C138.182 20.612 133.184 23.242 128.855 24.594zM102.813-11.594c12.167-2.285 26.509 5.558 34.057 14.83 -7.897-11.318-20.837-16.949-28.562-17.083C95.629-14.067 82.513-3.204 56.869-2.265 80.982-1.203 92.573-9.936 102.813-11.594zM112.369 1.235c-17.289 6.143-30.64 7.613-48.807 8.58C82.325 10.97 95.739 9.15 112.369 1.235zM130.536 4.738c-10.662 5.027-15.33 5.851-37.337 7.191C106.996 12.486 119.885 11.769 130.536 4.738zM95.248 20.023c10.644 1.237 29.289-0.105 38.621-9.788 -11.27 9.494-32.119 9.154-48.38 8.508C91.713 19.714 90.59 19.552 95.248 20.023zM140.869 10.735c7.629 2.809 9.489 16.193 12.5 27C152.022 28.156 149.721 12.813 140.869 10.735z" fill="#3a353a" stroke-width="none" opacity="1"/>
+            <path id="SvgjsPath3957" d="M155.579 12.925c-4.348-4.769-8.252-8.97-14.63-10.02 2.094-2.463 3.566-3.379 6.25-1.85 -1.59-1.871-3.417-2.226-5.63-0.22 1.271-1.905 3.468-3.46 6.3-6.43 -4.231 1.985-5.503 3.34-7.12 5.42 2.285-6.703 1.3-3.128 3.72-9.75 -2.529 2.836-4.146 5.92-4.859 9.72 0-5.903-0.185-5.14-0.07-7.72 -1.387 3.089-1.229 5.81-1.229 7.59 -2.233-3.682-5.514-6.8-9.051-9.35 -25.054-18.289-50.039-1.456-63.58 0.58 -5.489 0.927-13.714 0.338-19.35-3.04 0.398 5.764 2.183 9.592 4.79 13.68 -0.001 0-1.47-0.31-1.47-0.31 -2.019-2.434-2.214-2.356-2.96-4.33 -0.191 1.763 0.101 2.74 0.25 3.74 -0.498-0.13-0.957-0.268-1.26-0.34 -0.743-2.414-0.958-4.25-1.23-6.29 -0.614 0.785-1.922 3.18-2.64 5.15 -2.999-0.948-3.214-1.099-7.43-4.33 0.5 1 2.309 6.461 5.44 12.23 -0.47 3.534-0.328 7.06 0.27 10.12 -5.025 6.312-6.77 12.346-7.56 20.44 -1.041 19.059 0.867 24.611 5.53 34.82 0.01 0.01 0.01 0.03 0.02 0.04 -0.177 1.971 0.119 5.102 0.44 7.18 1.179 6.332 2.625 10.693 7.91 17.65 0.02 0.02 0.03 0.05 0.05 0.07 3.395-20.368 3.045-20.867 3.77-25.89 3.572-25.712 3.417-21.872 12.81-40.07 3.813 2.628 8.035 3.552 14.02 1.56 4.342 2.524 8.776 4.45 21.06 4.45 12.171-0.152 26.176 0.412 38.52-7.53 -1.87 2.622-6.118 7.154-9.46 9.18 3.479-0.736 5.975-2.137 9.09-5.84 -0.957 1.915-2.083 4.814-2.17 5.16 0.15-0.18 2.15-2.57 3.51-4.7 -0.653 7.945 2.894 12.597 6.98 19.4 8.956 14.163 3.511 33.521 8.33 45.96 3.09-4.996 7.04-12.086 7.04-17.75 5.21-9.086 5.956-21.111 3.39-26.75C168.587 38.924 167.533 26.708 155.579 12.925zM46.789-2.465c0.488 1.389 0.595 1.359 2.49 3.61 -0.94-0.195-1.565-0.332-2.13-0.46C46.93-0.371 46.789-1.375 46.789-2.465zM44.279-5.125c0.094 1.532 0.459 3.542 0.99 5.31 -2.865-0.737-1.8-0.504-2.8-0.8C43.292-3.089 43.602-3.715 44.279-5.125zM45.999 95.095c-4.216-7.605-5.323-10.191-6.49-17.89 -0.114-0.886-0.472-3.446-0.49-4.67 -6.07-13.88-8.352-40.236 1.21-54.74 0-0.01 0-0.01 0-0.01s0.399-0.624 1.12-1.52c-0.267-1.344-0.531-4.18-0.44-7.28 0.74 1.32 1.58 2.52 2.33 3.67 0-0.003 0.59 0.781 0.59 0.8 4.551 5.79 8.754 10.604 18.92 17.75C50.544 50.979 51.301 44.3 45.999 95.095zM163.639 48.206c-0.356 2.358-1.123 5.583-1.539 6.99 2.78 7.068-0.257 20.417-3.061 26.38 -1.226 7.093-2.545 8.521-6.01 15.59 -2.477-11 2.583-30.519-6.76-45.08 -6.059-10.044-8.657-11.36-7.23-23.77 0 0 0.061-0.675 0.08-0.85 -12.628 7.721-26.576 8.594-44.97 8.2 -5.317 0-12.5-0.668-16.98-3.44 -9.081 2.583-12.45-1.437-20.01-7.34 -8.163-6.937-13.709-12.994-20.55-27.27 3.843 3.118 11.537 4.689 16.39 5.5 -3.273-4.363-5.199-8.349-6.07-14 3.48 2.32 11.82 4.603 19.17 3.79 13.534-1.271 32.484-15.167 55.77-4.63 10.804 4.767 16.286 11.476 17.57 15 0.01 0 0.02 0.01 0.04 0.01 0.06 0.02 0.12 0.03 0.189 0.04 0.017 0.018 0.332 0.09 0.36 0.09 6.976 2.325 7.443 2.759 14.2 10.64C158.026 18.715 167.168 28.016 163.639 48.206z" fill="#000000" stroke-width="none" opacity="1"/>
+          </g>
+          <g id="svga-group-glasses-single-move" transform="matrix(1,0,0,1,0,0)">
+            <g id="svga-group-glasses-single" transform="matrix(1,0,0,1,0,0)">
+              <path id="SvgjsPath5334" d="M100,18.13L100,18.13L100,18.13L100,18.13z" fill="#e05f48" stroke-width="none" opacity="1" stroke="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="SvgjsRect1057" width="200" height="15" x="0" y="185" fill="#ecf0f1" opacity="0.5" style="display: none;"/>
+    <text id="SvgjsText1058" font-family="Roboto, Helvetica, Arial, sans-serif" font-size="10px" text-anchor="start" font-weight="400" anchor="start" fill="#333333" x="57.625" y="182.4296875" style="display: none;">
+      <tspan id="SvgjsTspan1059" dy="13" x="57.625">Created on face.co</tspan>
+    </text>
+  </g>
+</svg>

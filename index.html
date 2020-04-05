@@ -1,319 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XiLog</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/styleBord.css" />
-    <link rel="stylesheet" type="text/css" href="css/rvslider.min.css" >
-    <link rel="shortcut icon" type="image/png" href="xing-logo.png" >
-</head>
+    <title>Xilog</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styleBord.css">
+    <link rel="stylesheet" type="text/css" href="css/rvslider.min.css">
+    <link rel="shortcut icon" type="image/png" href="/Myblog/img/xing-logo.png">
+  </head>
 
-<body>
+  <body>
     <!-- header start-->
     <header>
-        <div id="header" class="section">
-            <img alt="" class="img-circle" src="img/flamenco-list-is-empty.png">
-            <p>Daniel Bar Shay</p>
-        </div>
+      <div id="header" class="section">
+        <img alt="" class="img-circle" src="/Myblog/img/face_co.svg">
+        <p>Daniel Bar Shay</p>
+      </div>
     </header>
     <!-- heder end-->
-    <!-- Main start-->
+
     <!-- About me section start-->
-    <main>
     <div class="section">
-        <h1><a class="btn">
-                <span>
-                    <span>
-                        <span>About me</span>
-                    </span>
-                </span>
-            </a>
-        </h1>
-        <p>
-            Hey! I'm <strong>Daniel</strong>. Learn Html has changed my world. It's not just
-            write some text. Learning to code on Html it gave me problem-solving skills
-            and a way to communitcate with others on a technical level. I can also develop
-            websites and use my code to get a better job. And I learned it all at
-            Google. Join with me in this rewarding journey. You'll have fun, get help,
-            and learn along the way!
-        </p>
-        <p class="quote">"<i><b>If the design is taking too long, the design is wrong.</b></i>"</p>
+      <h1>
+        <a class="btn">
+          <span>
+            <span>
+              <span>About me</span>
+            </span>
+          </span>
+        </a>
+      </h1>
+      <p>
+        Hey! I'm <strong>Daniel</strong>. Write to code has changed my world. It's
+        not just write some text. Learning to code it gave me
+        problem-solving skills and a way to communitcate with others on a
+        technical level. I can also develop websites and use my code to get a
+        better job. And I learned it all at Google. Join with me in this
+        rewarding journey. You'll have fun, get help, and learn along the way!
+      </p>
+      <p class="quote">
+        "<i><b>If the design is taking too long, the design is wrong.</b></i
+        >"
+      </p>
     </div>
     <!-- About Me section end-->
 
     <!-- My Schedule section start-->
     <div class="section">
-        <h1><a class="btn">
-                <span>
-                    <span>
-                        <span>My Daily Schedule</span>
-                    </span>
-                </span>
-            </a>
-        </h1>
-        <table class="table_blur">
-            <tr>
-                <th>Day</th>
-                <th>Sun</th>
-                <th>Mon</th>
-                <th>Tue</th>
-                <th>Wed</th>
-                <th>Thu</th>
-                <th>Fri</th>
-            </tr>
-            <tr>
-                <td>9:00-10:00</td>
-                <td class="selected">Training</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>10:30-11:00</td>
-                <td></td>
-                <td class="selected">Eating</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>13:00:15:00</td>
-                <td></td>
-                <td></td>
-                <td class="selected">Learn</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>15:00-16:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td class="selected">Practice</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>17:00-18:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td class="selected">Code</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>19:00-20:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td class="selected">Discuss</td>
-            </tr>
-        </table>
-    </div>
+      <h1>
+        <a class="btn">
+          <span>
+            <span>
+              <span>My Daily Schedule</span>
+            </span>
+          </span>
+        </a>
+      </h1>
+      <table class="rwd-table table_blur">
+        <tr>
+          <th>Times</th>
+          <th>Action</th>
+          <th>Time</th>
+          <th>Importance</th>
+        </tr>
+        <tr>
+          <td data-th="Times">Three days</td>
+          <td data-th="Action">Traning</td>
+          <td data-th="Time">9:00-10:00</td>
+          <td data-th="Importance">Usually</td>
+        </tr>
+        <tr>
+          <td data-th="Times">Four days</td>
+          <td data-th="Action">Reading</td>
+          <td data-th="Time">11:00-16:00</td>
+          <td class="selected"  data-th="Importance">Very Much</td>
+        </tr>
+        <tr>
+          <td data-th="Times">Five days</td>
+          <td data-th="Action">Learning</td>
+          <td data-th="Time">17:00-20:00</td>
+          <td data-th="Importance">Usually</td>
+        </tr>
+        <tr>
+          <td data-th="Times">Six days</td>
+          <td data-th="Action">Codding</td>
+          <td data-th="Time">21:00-22:00</td>
+          <td class="selected"  data-th="Importance">Very Much</td>
+        </tr>
+        <tr>
+          <td data-th="Times">Seven days</td>
+          <td data-th="Action">Relaxing</td>
+          <td data-th="Time">23:00-9:00</td>
+          <td data-th="Importance">Usually</td>
+        </tr>
+      </table>
+  </div>
     <!-- My Schedule section end-->
 
     <!-- My skills section start-->
     <div class="section">
-        <h1><a class="btn">
-                <span>
-                    <span>
-                        <span>My Skills</span>
-                    </span>
-                </span>
-            </a>
-        </h1>
-        <dl>
-            <dt>Html <br />
-                <div class="progress-bar blue glow shine">
-                    <span style="width: 70%;">
-                        <p>70%</p>
-                    </span>
-                </div>
-            </dt>
+      <h1>
+        <a class="btn">
+          <span>
+            <span>
+              <span>My Skills</span>
+            </span>
+          </span>
+        </a>
+      </h1>
+      <dl>
+        <dt>
+          HTML <br />
+          <div class="progress-bar blue glow shine">
+            <span style="width: 70%;">
+              <p>70%</p>
+            </span>
+          </div>
+        </dt>
 
-            <dt>CSS <br />
-                <div class="progress-bar blue glow shine">
-                    <span style="width: 50%;">
-                        <p>50%</p>
-                    </span>
-                </div>
-            </dt>
+        <dt>
+          CSS <br />
+          <div class="progress-bar blue glow shine">
+            <span style="width: 50%;">
+              <p>50%</p>
+            </span>
+          </div>
+        </dt>
 
-            <dt>English <br />
-                <div class="progress-bar blue glow shine">
-                    <span style="width: 20%;">
-                        <p>20%</p>
-                    </span>
-                </div>
-            </dt>
-        </dl>
+        <dt>
+          JS <br />
+          <div class="progress-bar blue glow shine">
+            <span style="width: 15%;">
+              <p>15%</p>
+            </span>
+          </div>
+        </dt>
+
+        <dt>
+          PHP <br />
+          <div class="progress-bar blue glow shine">
+            <span style="width: 10%;">
+              <p>10%</p>
+            </span>
+          </div>
+        </dt>
+
+        <dt>
+          English <br />
+          <div class="progress-bar blue glow shine">
+            <span style="width: 20%;">
+              <p>20%</p>
+            </span>
+          </div>
+        </dt>
+      </dl>
     </div>
     <!-- My skills section end-->
 
     <!-- Media section start-->
     <div class="section">
-        <h1><a class="btn">
-                <span>
-                    <span>
-                        <span>My Media</span>
-                    </span>
-                </span>
-            </a>
-        </h1>
+      <h1>
+        <a class="btn">
+          <span>
+            <span>
+              <span>My Media</span>
+            </span>
+          </span>
+        </a>
+      </h1>
 
-        <!-- Slider start -->
-        <div class="rvs-container rvs-blue-highlight rvs-youtube-play rvs-show-play-on-hover rvs-large-thumbs">
-            <div class="rvs-item-container">
-                <div class="rvs-item-stage">
-                    <div class="rvs-item"
-                        style="background-image: url(https://i.ytimg.com/vi/jjMW_4_TfBk/maxresdefault.jpg)">
-                        <p class="rvs-item-text">Hungry Meme<small>by Blackie Sootfur</small></p>
-                        <a href="https://www.youtube.com/embed/jjMW_4_TfBk?autoplay=1" class="rvs-play-video"></a>
-                    </div>
-                    <div class="rvs-item"
-                        style="background-image: url(https://i.ytimg.com/vi/un0_itFKZpk/maxresdefault.jpg)">
-                        <p class="rvs-item-text">TETRIS MALFUNCTION<small>by UnknownSpy</small></p>
-                        <a href="https://www.youtube.com/watch?v=un0_itFKZpk?autoplay=1" class="rvs-play-video" 'SameSite=None' 'Secure'></a>
-                    </div>
-                    <div class="rvs-item"
-                        style="background-image: url(https://i.ytimg.com/vi/Ayeg2vlnbUo/maxresdefault.jpg)">
-                        <p class="rvs-item-text">Disconnected<small>by leafydragon</small></p>
-                        <a href="https://www.youtube.com/watch?v=Ayeg2vlnbUo?autoplay=1" class="rvs-play-video" 'SameSite=None 'Secure''></a>
-                    </div>
-                    <div class="rvs-item"
-                        style="background-image: url(https://i.ytimg.com/vi/prxLbQzN2HY/maxresdefault.jpg)">
-                        <p class="rvs-item-text">• breathing • meme •<small>by cutedorito</small></p>
-                        <a href="https://www.youtube.com/watch?v=prxLbQzN2HY?autoplay=1" class="rvs-play-video 'SameSite=None' 'Secure'"></a>
-                    </div>
-                    <div class="rvs-item"
-                        style="background-image: url(https://i.ytimg.com/vi/hNfgouRnXeg/maxresdefault.jpg)">
-                        <p class="rvs-item-text">Cradles - Undertale<small>by MaksiMy</small></p>
-                        <a href="https://www.youtube.com/watch?v=hNfgouRnXeg?autoplay=1" class="rvs-play-video 'SameSite=None' 'Secure'"></a>
-                    </div>
-                </div>
+      <!-- Slider start -->
+      <div
+        class="rvs-container rvs-blue-highlight rvs-youtube-play rvs-show-play-on-hover rvs-large-thumbs"
+      >
+        <div class="rvs-item-container">
+          <div class="rvs-item-stage">
+            <div
+              class="rvs-item"
+              style="background-image: url(https://i.ytimg.com/vi/jjMW_4_TfBk/maxresdefault.jpg)"
+            >
+              <p class="rvs-item-text">
+                Hungry Meme<small>by Blackie Sootfur</small>
+              </p>
+              <a
+                href="https://www.youtube.com/embed/jjMW_4_TfBk?autoplay=1"
+                class="rvs-play-video"
+              ></a>
             </div>
-            <div class="rvs-nav-container">
-                <a class="rvs-nav-prev"></a>
-                <div class="rvs-nav-stage">
-                    <a class="rvs-nav-item">
-                        <span class="rvs-nav-item-thumb"
-                            style="background-image: url(https://i.ytimg.com/vi/jjMW_4_TfBk/maxresdefault.jpg)"></span>
-                        <h4 class="rvs-nav-item-title">Hungry Meme</h4>
-                        <small class="rvs-nav-item-credits">by Blackie Sootfur</small>
-                    </a>
-                    <a class="rvs-nav-item">
-                        <span class="rvs-nav-item-thumb"
-                            style="background-image: url(https://i.ytimg.com/vi/un0_itFKZpk/maxresdefault.jpg)"></span>
-                        <h4 class="rvs-nav-item-title">TETRIS MALFUNCTION</h4>
-                        <small class="rvs-nav-item-credits">by UnknownSpy</small>
-                    </a>
-                    <a class="rvs-nav-item">
-                        <span class="rvs-nav-item-thumb"
-                            style="background-image: url(https://i.ytimg.com/vi/Ayeg2vlnbUo/maxresdefault.jpg)"></span>
-                        <h4 class="rvs-nav-item-title">Disconnected</h4>
-                        <small class="rvs-nav-item-credits">by leafydragon</small>
-                    </a>
-                    <a class="rvs-nav-item">
-                        <span class="rvs-nav-item-thumb"
-                            style="background-image: url(https://i.ytimg.com/vi/prxLbQzN2HY/maxresdefault.jpg)"></span>
-                        <h4 class="rvs-nav-item-title">• breathing • meme •</h4>
-                        <small class="rvs-nav-item-credits">by cutedorito</small>
-                    </a>
-                    <a class="rvs-nav-item">
-                        <span class="rvs-nav-item-thumb"
-                            style="background-image: url(https://i.ytimg.com/vi/hNfgouRnXeg/maxresdefault.jpg)"></span>
-                        <h4 class="rvs-nav-item-title">Cradles - Undertale</h4>
-                        <small class="rvs-nav-item-credits">by MaksiMy</small>
-                    </a>
-                </div>
-                <a class="rvs-nav-next"></a>
+            <div
+              class="rvs-item"
+              style="background-image: url(https://i.ytimg.com/vi/un0_itFKZpk/maxresdefault.jpg)"
+            >
+              <p class="rvs-item-text">
+                TETRIS MALFUNCTION<small>by UnknownSpy</small>
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=un0_itFKZpk?autoplay=1"
+                class="rvs-play-video"
+              ></a>
             </div>
+            <div
+              class="rvs-item"
+              style="background-image: url(https://i.ytimg.com/vi/Ayeg2vlnbUo/maxresdefault.jpg)"
+            >
+              <p class="rvs-item-text">
+                Disconnected<small>by leafydragon</small>
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=Ayeg2vlnbUo?autoplay=1"
+                class="rvs-play-video"
+              ></a>
+            </div>
+            <div
+              class="rvs-item"
+              style="background-image: url(https://i.ytimg.com/vi/prxLbQzN2HY/maxresdefault.jpg)"
+            >
+              <p class="rvs-item-text">
+                • breathing • meme •<small>by cutedorito</small>
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=prxLbQzN2HY?autoplay=1"
+                class="rvs-play-video"
+              ></a>
+            </div>
+            <div
+              class="rvs-item"
+              style="background-image: url(https://i.ytimg.com/vi/hNfgouRnXeg/maxresdefault.jpg)"
+            >
+              <p class="rvs-item-text">
+                Cradles - Undertale<small>by MaksiMy</small>
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=hNfgouRnXeg?autoplay=1"
+                class="rvs-play-video"
+              ></a>
+            </div>
+          </div>
         </div>
+        <div class="rvs-nav-container">
+          <a class="rvs-nav-prev"></a>
+          <div class="rvs-nav-stage">
+            <a class="rvs-nav-item">
+              <span
+                class="rvs-nav-item-thumb"
+                style="background-image: url(https://i.ytimg.com/vi/jjMW_4_TfBk/maxresdefault.jpg)"
+              ></span>
+              <h4 class="rvs-nav-item-title">Hungry Meme</h4>
+              <small class="rvs-nav-item-credits">by Blackie Sootfur</small>
+            </a>
+            <a class="rvs-nav-item">
+              <span
+                class="rvs-nav-item-thumb"
+                style="background-image: url(https://i.ytimg.com/vi/un0_itFKZpk/maxresdefault.jpg)"
+              ></span>
+              <h4 class="rvs-nav-item-title">TETRIS MALFUNCTION</h4>
+              <small class="rvs-nav-item-credits">by UnknownSpy</small>
+            </a>
+            <a class="rvs-nav-item">
+              <span
+                class="rvs-nav-item-thumb"
+                style="background-image: url(https://i.ytimg.com/vi/Ayeg2vlnbUo/maxresdefault.jpg)"
+              ></span>
+              <h4 class="rvs-nav-item-title">Disconnected</h4>
+              <small class="rvs-nav-item-credits">by leafydragon</small>
+            </a>
+            <a class="rvs-nav-item">
+              <span
+                class="rvs-nav-item-thumb"
+                style="background-image: url(https://i.ytimg.com/vi/prxLbQzN2HY/maxresdefault.jpg)"
+              ></span>
+              <h4 class="rvs-nav-item-title">• breathing • meme •</h4>
+              <small class="rvs-nav-item-credits">by cutedorito</small>
+            </a>
+            <a class="rvs-nav-item">
+              <span
+                class="rvs-nav-item-thumb"
+                style="background-image: url(https://i.ytimg.com/vi/hNfgouRnXeg/maxresdefault.jpg)"
+              ></span>
+              <h4 class="rvs-nav-item-title">Cradles - Undertale</h4>
+              <small class="rvs-nav-item-credits">by MaksiMy</small>
+            </a>
+          </div>
+          <a class="rvs-nav-next"></a>
+        </div>
+      </div>
     </div>
     <!--Slider end-->
     <!-- Media section end-->
 
     <!-- Form section start-->
     <form class="section">
-        <div class="decor">
-            <div class="form-left-decoration"></div>
-            <div class="form-right-decoration"></div>
-            <div class="circle"></div>
-            <div class="form-inner">
-                <h1><a class="btn">
-                        <span>
-                            <span>
-                                <span>Contact me</span>
-                            </span>
-                        </span>
-                    </a>
-                </h1>
-                <input class="text" type="text" placeholder="Username">
-                <input class="text" type="email" placeholder="Email">
-                <textarea placeholder="Message..." rows="3"></textarea>
+      <h1>
+        <a class="btn">
+          <span>
+            <span>
+              <span>Contact me</span>
+            </span>
+          </span>
+        </a>
+      </h1>
+      <div class="decor">
+        <div class="form-inner">
+          <input class="text" type="text" placeholder="Username" />
+          <input class="text" type="email" placeholder="Email" />
+          <textarea placeholder="Message..." rows="3"></textarea>
 
-                <button type="submit">
-                    <svg class="liquid-button" data-text="Send" data-force-factor="0.1" data-layer-1-viscosity="0.5"
-                        data-layer-2-viscosity="0.4" data-layer-1-mouse-force="400" data-layer-2-mouse-force="500"
-                        data-layer-1-force-limit="1" data-layer-2-force-limit="2" data-color1="#4DE7BF"
-                        data-color2="#0A3FC7" data-color3="#2A62F4">
-                    </svg>
-                </button>
-            </div>
+          <button type="submit">
+            <svg
+              class="liquid-button"
+              data-text="Send"
+              data-force-factor="0.1"
+              data-layer-1-viscosity="0.5"
+              data-layer-2-viscosity="0.4"
+              data-layer-1-mouse-force="400"
+              data-layer-2-mouse-force="500"
+              data-layer-1-force-limit="1"
+              data-layer-2-force-limit="2"
+              data-color1="#4DE7BF"
+              data-color2="#0A3FC7"
+              data-color3="#2A62F4"
+            ></svg>
+          </button>
         </div>
+      </div>
     </form>
     <!-- Form section end-->
 
     <!-- Contacts section start-->
     <div class="section" id="contacts">
-        <h1><a class="btn">
-                <span>
-                    <span>
-                        <span>Follow Me</span>
-                    </span>
-                </span>
-            </a>
-        </h1>
-        <div>
-            <a href="https://www.youtube.com/user/KuplinovPlay" target="_blank">
-                <img src="https://img.icons8.com/doodle/48/000000/youtube-play.png" alt="Youtube" />
-            </a>
-            <a href="https://www.facebook.com/daniel.barshai.585" target="_blank">
-                <img src="https://img.icons8.com/doodle/96/000000/facebook-new.png" alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com/chisto_slokotka/" target="_blank">
-                <img src="https://img.icons8.com/doodle/48/000000/instagram-new.png" alt="Instagram" />
-            </a>
-            <a href="https://vk.com/" target="VK">
-                <img src="https://img.icons8.com/dusk/64/000000/vk-com.png" alt="Vk" />
-            </a>
-        </div>
+      <h1>
+        <a class="btn">
+          <span>
+            <span>
+              <span>Follow Me</span>
+            </span>
+          </span>
+        </a>
+      </h1>
+      <div>
+        <a href="https://www.youtube.com/user/KuplinovPlay" target="_blank">
+          <img
+            src="https://img.icons8.com/doodle/48/000000/youtube-play.png"
+            alt="Youtube"
+          />
+        </a>
+        <a href="https://www.facebook.com/daniel.barshai.585" target="_blank">
+          <img
+            src="https://img.icons8.com/doodle/96/000000/facebook-new.png"
+            alt="Facebook"
+          />
+        </a>
+        <a href="https://www.instagram.com/chisto_slokotka/" target="_blank">
+          <img
+            src="https://img.icons8.com/doodle/48/000000/instagram-new.png"
+            alt="Instagram"
+          />
+        </a>
+        <a href="https://vk.com/" target="VK">
+          <img
+            src="https://img.icons8.com/dusk/64/000000/vk-com.png"
+            alt="Vk"
+          />
+        </a>
+      </div>
     </div>
-    </main>
     <!-- Contact section end-->
-    <!--Main end-->
     <footer>
-        <div class="copyright">
-            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"> www.flaticon.com</a>
-            <br>
-            &copy; 2020 My Blog. All rights reserved.
-        </div>
+      <div class="copyright">
+        <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik
+           - www.freepik.com</a>
+        <br>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from 
+        <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"> www.flaticon.com</a>
+        <br>
+        &copy; 2020 Xilog. All rights reserved.
+      </div>
+     
     </footer>
 
-    <script src="button.js"></script>
+    <script src="js/button.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="rvslider.min.js"></script>
-    <script>jQuery(function ($) { $('.rvs-container').rvslider(); });</script>
-</body>
-
+    <script src="js/rvslider.min.js"></script>
+    <script>
+      jQuery(function($) {
+        $(".rvs-container").rvslider();
+      });
+    </script>
+  </body>
 </html>

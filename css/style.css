@@ -33,8 +33,9 @@ p {
   border-radius: 10px;
 }
 #header {
-  background-image: url(https://image.freepik.com/free-vector/classic-blue-background-with-memphis-effect_23-2148428988.jpg);
-  background-size: contain;
+  background-image: url(/Myblog/img/3560210.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #header img {
   display: block;
@@ -44,59 +45,116 @@ p {
 }
 #header p {
   font-size: 25pt;
-  color: #172025;
+  color: #000000;
   padding-top: 5px;
   margin: 0;
   font-weight: bold;
   text-align: center;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.04);
+  -webkit-text-fill-color: black;
 }
 .quote {
   font-size: 12pt;
   text-align: right;
   margin-top: 10px;
 }
-.table_blur {
-  width: 100%;
-  font-size: 11pt;
+/*Start Table*/
+.rwd-table {
+  margin: auto;
+  min-width: 300px;
 }
-.table_blur {
-  background: #f5ffff;
-  border-collapse: collapse;
+
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.rwd-table th {
+  display: none;
+}
+
+.rwd-table td {
+  display: block;
+}
+
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+
+.rwd-table th, .rwd-table td {
   text-align: left;
 }
+
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+.rwd-table {
+  background: #1b5496e0;
+  border-radius: .4em;
+  overflow: hidden;
+}
+
+.rwd-table tr {
+  border-color: #4a6886;
+}
+
+.rwd-table th, .rwd-table td {
+  margin: 1px;
+}
+
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+}
+
 .table_blur th {
-  border-top: 1px solid #777777;
-  border-bottom: 1px solid #777777;
   box-shadow: inset 0 1px 0 #999999, inset 0 -1px 0 #999999;
-  background: linear-gradient(#50c2cd, #006483);
+  background: linear-gradient(#9595b6, #5a567f);
   color: white;
-  padding: 10px 15px;
+  padding: 10px 15px; 
   position: relative;
 }
 .table_blur th:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 25%;
-  height: 25%;
-  width: 100%;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.08)
-  );
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,.08));
 }
 .table_blur tr:nth-child(odd) {
-  background: #ebf3f9;
+  background: #9bbce2de;
 }
 .table_blur th:first-child {
-  border-left: 1px solid #777777;
-  border-bottom: 1px solid #777777;
   box-shadow: inset 1px 1px 0 #999999, inset 0 -1px 0 #999999;
 }
 .table_blur th:last-child {
-  border-right: 1px solid #777777;
-  border-bottom: 1px solid #777777;
   box-shadow: inset -1px 1px 0 #999999, inset 0 -1px 0 #999999;
 }
 .table_blur td {
@@ -104,13 +162,14 @@ p {
   padding: 10px 15px;
   position: relative;
   transition: all 0.5s ease;
+  color: rgba(0, 0, 0, 0.623);
 }
 .table_blur tbody:hover td {
   color: transparent;
   text-shadow: 0 0 3px #a09f9d;
 }
 .table_blur tbody:hover tr:hover td {
-  color: #444444;
+  color: #000000;
   text-shadow: none;
 }
 
@@ -119,6 +178,7 @@ p {
   font-weight: bold;
   color: white;
 }
+/*End Table*/
 dt {
   margin-bottom: 15px;
   font-weight: bold;
@@ -211,6 +271,7 @@ hr {
   text-align: center;
 }
 .copyright, .copyright a {
+  text-decoration: none;
   font-size: 8pt;
   text-align: right;
   padding-bottom: 10px;
