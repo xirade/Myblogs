@@ -48,6 +48,7 @@ p {
   margin: 0;
   font-weight: bold;
   text-align: center;
+  text-shadow: 0 0 1em white;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
   -webkit-text-fill-color: black;
 }
