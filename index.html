@@ -13,10 +13,10 @@
   <body>
     <!-- header start-->
     <header>
-      <div id="header" class="section" >
+      <div id="header" class="section unselectible" >
         <style>#header {background-image: url(img/3560210.jpg);}</style>
         <img alt="Avatar" class="img-circle" src="img/face_co.svg">
-        <p>Daniel Bar Shay</p>
+        <p class="unselectible">Daniel Bar Shay</p>
       </div>
     </header>
     <!-- heder end-->
@@ -24,7 +24,7 @@
     <!-- About me section start-->
     <div class="section">
       <h1>
-        <a class="btn">
+        <a class="btn unselectible">
           <span>
             <span>
               <span>About me</span>
@@ -48,7 +48,7 @@
     <!-- About Me section end-->
 
     <!-- My Schedule section start-->
-    <div class="section">
+    <div class="section unselectible">
       <h1>
         <a class="btn">
           <span>
@@ -100,7 +100,7 @@
     <!-- My Schedule section end-->
 
     <!-- My skills section start-->
-    <div class="section">
+    <div class="section unselectible">
       <h1>
         <a class="btn">
           <span>
@@ -160,7 +160,7 @@
     <!-- My skills section end-->
 
     <!-- Media section start-->
-    <div class="section">
+    <div class="section unselectible">
       <h1>
         <a class="btn">
           <span>
@@ -291,8 +291,8 @@
     <!-- Media section end-->
 
     <!-- Form section start-->
-    <form class="section">
-      <h1>
+    <div class="section unselectible">   
+        <h1>
         <a class="btn">
           <span>
             <span>
@@ -300,36 +300,48 @@
             </span>
           </span>
         </a>
-      </h1>
-      <div class="decor">
-        <div class="form-inner">
-          <input class="text" type="text" placeholder="Username" />
-          <input class="text" type="email" placeholder="Email" />
-          <textarea placeholder="Message..." rows="3"></textarea>
+        </h1>
+        <form action="" class="comment-form" method="POST">
+        <div class="decor">
+          <div class="form-inner">
+            <input class="text" type="text" placeholder="Username" maxlength="10" />
+            <input class="text" type="email" placeholder="Email" maxlength="25" />
+              <textarea class="comment-field" placeholder="Message..." rows="3" required  id="comment-textarea" maxlength="100"></textarea>
 
-          <button type="submit">
-            <svg
-              class="liquid-button"
-              data-text="Send"
-              data-force-factor="0.1"
-              data-layer-1-viscosity="0.5"
-              data-layer-2-viscosity="0.4"
-              data-layer-1-mouse-force="400"
-              data-layer-2-mouse-force="500"
-              data-layer-1-force-limit="1"
-              data-layer-2-force-limit="2"
-              data-color1="#4DE7BF"
-              data-color2="#0A3FC7"
-              data-color3="#2A62F4"
-            ></svg>
-          </button>
+                  
+                   <div class="text-counter-progress">
+                      <span id="counter" class="progress-counter blueColor shineColor glowColor">
+                      <span class="text-progress">
+                      <span class="char-counter-text"><span class="char-counter">0</span>/100 used symbols</span>
+                      </span>
+                      </span>
+                  </div>
+                  
+            
+              <button class="submit-button" type="submit">
+                <svg
+                  class="liquid-button"
+                  data-text="Send"
+                  data-force-factor="0.1"
+                  data-layer-1-viscosity="0.5"
+                  data-layer-2-viscosity="0.4"
+                  data-layer-1-mouse-force="400"
+                  data-layer-2-mouse-force="500"
+                  data-layer-1-force-limit="1"
+                  data-layer-2-force-limit="2"
+                  data-color1="#4DE7BF"
+                  data-color2="#0A3FC7"
+                  data-color3="#2A62F4"
+                ></svg>
+              </button>
+           </form>
+          </div>
         </div>
       </div>
-    </form>
     <!-- Form section end-->
 
     <!-- Contacts section start-->
-    <div class="section" id="contacts">
+    <div class="section unselectible" id="contacts">
       <h1>
         <a class="btn">
           <span>
@@ -366,20 +378,21 @@
         </a>
       </div>
     </div>
+    
     <!-- Contact section end-->
-    <footer>
+    <footer class="unselectible">
+      <a href="" class="button-theme">Dark theme</a></div>
       <div class="copyright">
-        <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik
-           - www.freepik.com</a>
+        <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik.</a>
         <br>
         Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from 
         <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"> www.flaticon.com</a>
         <br>
-        &copy; 2020 Xilog. All rights reserved.
+        &copy; 2020 Xilog. All rights reserved.  
       </div>
-     
     </footer>
-
+  
+    <script src="JS/counter.js"></script>
     <script src="JS/button.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="JS/rvslider.min.js"></script>
