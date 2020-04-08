@@ -7,15 +7,13 @@ var maxlengthValue = document.getElementById('comment-textarea');
 
 commentField.oninput = function () { 
     maxlengthValue.getAttribute('maxlength', 'value');
+    console.log(maxlengthValue.textContent);
     charCounter.textContent = commentField.value.length;
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
     if (charCounter.textContent > maxlengthValue.textContent){
         submitButton.disabled = false;
     } else {
         submitButton.disabled = true;
-        $('textarea').keydown(function(e){
-            e.preventDefault();
-        });
     }
     };
 
