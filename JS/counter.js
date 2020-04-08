@@ -11,9 +11,6 @@ commentField.oninput = function () {
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
     if (charCounter.textContent > maxlengthValue.textContent){
         submitButton.disabled = true;
-        $('textarea').keydown(function(e){
-        e.preventDefault();
-        });
     } else {
         submitButton.disabled = false;
        
