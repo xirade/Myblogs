@@ -22,6 +22,7 @@ commentField.oninput = function () {
 submitButton.onclick = function (){
     commentField.value = '';
     charCounter.textContent = 0;
+    progressCounter.style.setProperty('--element-width', 0 + '%');
 }
 
 
