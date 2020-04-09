@@ -3,11 +3,15 @@ let charCounter = document.querySelector ('.char-counter');
 let submitButton = document.querySelector ('.submit-button');
 var progressCounter = document.querySelector ('span.progress-counter .text-progress');
 var maxlengthValue = document.getElementById('comment-textarea');
+let input = document.querySelector('.text');
+
 
 commentField.oninput = function (){ 
     maxlengthValue.getAttribute('maxLength', 'value');
     charCounter.textContent = commentField.value.length;
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
+    input.getAttribute('placeholder', 'value');
+    input = input.placeholder = maxlengthValue.maxLength;
         if (charCounter.textContent <= maxlengthValue.maxLength ){
             submitButton.disabled = false;
         }  else {
