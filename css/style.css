@@ -32,6 +32,7 @@ p {
   border-radius: 10px;
 }
 #header {
+  background-image: url('/img/3560210.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -275,6 +276,7 @@ p {
   width: var(--element-width);
   box-shadow: 0 5px 5px 	#0d5a7e	 inset,
     0 -5px 5px 	#0d5a7e	inset;
+    transition: 0.1s;
 }
 .glowColor .text-progress {
   -moz-box-shadow: 0 5px 5px rgba(255, 255, 255, 0.7) inset,

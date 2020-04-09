@@ -156,7 +156,7 @@ a {
   border-radius: 20px;
   font-family: "Roboto", sans-serif;
 }
-.form-inner textarea {
+.comment-field {
   resize: none;
 }
 .form-inner h3 {
