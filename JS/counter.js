@@ -8,10 +8,9 @@ commentField.oninput = function (){
     maxlengthValue.getAttribute('maxLength', 'value');
     charCounter.textContent = commentField.value.length;
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
-        if (charCounter.textContent < maxlengthValue.maxLength + 1 ){
+        if (charCounter.textContent <= maxlengthValue.maxLength ){
             submitButton.disabled = false;
         }  else {
-            submitButton.disabled = true;
             commentField.disabled = true;
         }
 };
