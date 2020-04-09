@@ -5,19 +5,15 @@ var progressCounter = document.querySelector ('span.progress-counter .text-progr
 var maxlengthValue = document.getElementById('comment-textarea');
 
 commentField.oninput = function (){ 
-    var maxValue;
-    maxValue = maxlengthValue.getAttribute('maxlength', 'value');
+    maxlengthValue.getAttribute('maxLength', 'value');
     charCounter.textContent = commentField.value.length;
-        if (charCounter.textContent > 0 ){
-            submitButton.disabled = false;
-        }  
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
-        $('.text').on('textarea', function() {
-            if (charCounter.textContent > maxValue){
-                $(this).val($(this).val().replace(/[A-Za-zА-Яа-яЁё0-9]/, ''))
-         }
-    })
-
+        if (charCounter.textContent < maxlengthValue.maxLength + 1 ){
+            submitButton.disabled = false;
+        }  else {
+            submitButton.disabled = true;
+            commentField.disabled = true;
+        }
 };
 
 submitButton.onclick = function (){
