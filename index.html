@@ -305,7 +305,7 @@
           <div class="form-inner">
             <input class="text" type="text" placeholder="Username" maxlength="10" />
             <input class="text" type="email" placeholder="Email" maxlength="25" />
-              <textarea type="text" class="comment-field" onkeydown="return textAreaMaxLength(this,100)" minlength="0" maxlength="100" placeholder="Message..." rows="3" required id="textarea"></textarea>
+              <textarea type="text" class="comment-field" onkeydown="return textAreaMaxLength(this,100) || xValue(event.key)" minlength="0" maxlength="100" placeholder="Message..." rows="3" required id="textarea"></textarea>
 
                   
                    <div class="text-counter-progress">

@@ -4,7 +4,7 @@ let submitButton = document.querySelector ('.submit-button');
 var progressCounter = document.querySelector ('span.progress-counter .text-progress');
 var maxlengthValue = document.getElementById('textarea');
 var minlengthValue = document.getElementById('textarea');
-
+var allValues = false;
 maxlengthValue.getAttribute('maxLength', 'value');
 minlengthValue.getAttribute('minLength', 'value');
 document.getElementById('maxValue').innerHTML = maxlengthValue.maxLength;
@@ -16,6 +16,7 @@ commentField.oninput = function (){
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
         if (charCounter.textContent >= maxlengthValue.maxLength){
             submitButton.disabled = true;
+            allValues = true;
         } else {
             submitButton.disabled = false;
         }
@@ -30,6 +31,20 @@ function textAreaMaxLength(obj, varlength) {
     else
         return true;
 }
+
+
+function xValue (key) {
+    if(allValues){
+        var temp = key == 'Backspace';
+        if(temp)
+            allValues = false;
+        return temp;
+    }
+    return true;
+}
+
+
+
     
 submitButton.onclick = function (){
     if (charCounter.textContent == 0 ){
