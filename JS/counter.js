@@ -4,7 +4,7 @@ let submitButton = document.querySelector ('.submit-button');
 var progressCounter = document.querySelector ('span.progress-counter .text-progress');
 var maxlengthValue = document.getElementById('textarea');
 var minlengthValue = document.getElementById('textarea');
-var allValues = false;
+
 maxlengthValue.getAttribute('maxLength', 'value');
 minlengthValue.getAttribute('minLength', 'value');
 document.getElementById('maxValue').innerHTML = maxlengthValue.maxLength;
@@ -15,27 +15,22 @@ commentField.oninput = function (){
     charCounter.textContent = commentField.value.length;
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
         if (charCounter.textContent >= maxlengthValue.maxLength){
-            allValues = true;
             submitButton.disabled = true;
         } else {
             submitButton.disabled = false;
         }
     }
 
-function xValue (key) {
-    if(allValues){
-        event.preventDefault ();
-        var temp = key == 'Backspace';
-        if(temp)
-            allValues = false;
-        return temp;
+function textAreaMaxLength(obj, varlength) {
+    if (varlength == null)
+        varlength = 100;
+    if (obj.value.length > (varlength-1)) {
+        return false;
     }
-    return true;
+    else
+        return true;
 }
     
-
-
-
 submitButton.onclick = function (){
     if (charCounter.textContent == 0 ){
         submitButton.disabled = true;
@@ -46,12 +41,6 @@ submitButton.onclick = function (){
     }
 }
 
-
-
-
-
-
-//getComputedStyle(ссылкаНаЭлемент).getPropertyValue('--моя-переменная').
 
 
 
