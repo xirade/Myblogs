@@ -16,7 +16,7 @@ commentField.oninput = function (){
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
         if (charCounter.textContent >= maxlengthValue.maxLength){
             allValues = true;
-        submitButton.disabled = true;
+            submitButton.disabled = true;
         } else {
             submitButton.disabled = false;
         }
@@ -24,6 +24,7 @@ commentField.oninput = function (){
 
 function xValue (key) {
     if(allValues){
+        event.preventDefault ();
         var temp = key == 'Backspace';
         if(temp)
             allValues = false;
