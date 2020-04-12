@@ -15,10 +15,16 @@ commentField.oninput = function (){
     charCounter.textContent = commentField.value.length;
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
         if (charCounter.textContent >= maxlengthValue.maxLength){
+            if(charCounter.textContent >= maxlengthValue.maxLength)
             submitButton.disabled = true;
+            charCounter.textContent = maxlengthValue.maxLength;
             allValues = true;
+            if (charCounter.textContent > (maxlengthValue.maxLength-1)){
+            return false;
+            }
         } else {
             submitButton.disabled = false;
+            return true;
         }
     }
 
