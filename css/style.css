@@ -36,7 +36,7 @@ p {
   border-radius: 50%;
 }
 .section {
-  box-shadow: 1px 2px 2px 1px rgba(0, 142, 188, 0.19);
+  box-shadow: 1px 2px 2px 1px #afafba;
   background-color: #DFDBE5;
   padding: 15px;
   margin-bottom: 10px;
