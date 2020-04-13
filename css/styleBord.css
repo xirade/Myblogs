@@ -5,14 +5,14 @@
 
 a {
   font-size: 20pt;
-  color: #148799;
   text-align: center;
   margin: 0 0 10px 0;
+  padding: 0px;
 }
 
 .btn {
   position: relative;
-  display: inline-block;
+  display: block;
   padding: 0.5em 2em;
   cursor: pointer;
   overflow: hidden;
@@ -73,7 +73,7 @@ a {
   z-index: 9;
   height: 2px;
   width: 100%;
-  background: radial-gradient(#FFDD00,#FFB300,#FF8000,#FF5500,#FF0000,#FFDD00,#FFB300,#FF8000);
+  background: repeating-radial-gradient(white 0%,grey 50%,black 100%);
 }
 
 .btn > * > *:before {
@@ -106,7 +106,7 @@ a {
   z-index: 9;
   height: 100%;
   width: 2px;
-  background: repeating-radial-gradient(#FFDD00,#FFB300,#FF8000,#FF5500,#FF0000,#FFDD00,#FFB300,#FF8000);
+  background: repeating-radial-gradient(white 0%,grey 50%,black 100%)
 }
 
 .btn > * > * > *:before {

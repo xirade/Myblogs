@@ -40,6 +40,29 @@ p {
   border: 3px solid white;
   border-radius: 50%;
 }
+#text{
+  width: 100%;
+}
+.text-section{
+  color: #ffffff93;
+}
+.text-section:hover{
+  color: #ffffffe3;
+}
+.canvas-section{
+  position: relative;
+  display: block;
+  background: rgba(255, 255, 255, 0.253);
+  width: 262px;
+  height: 60px;
+  margin: 10px auto;
+  border-radius: 3px;
+  background-image: repeating-radial-gradient( #00000050 0%, #0b0b0c8c 50%, #000000d7 100%);
+  box-shadow: inset 0 0 1px 2px rgba(0, 0, 0, 0.637),0 0 1px 1px rgba(0, 0, 0, 0.637);
+}
+.canvas-section:hover{
+    background-image: repeating-radial-gradient( #000000c5 0%, #000000 100%, #0b0b0c8c 0%); 
+  }
 .section {
   box-shadow: 1px 2px 2px 1px #afafba;
   background-color: #DFDBE5;
@@ -321,22 +344,19 @@ p {
   box-shadow: 0 5px 5px 	#4290cca9 inset,
     0 -5px 5px #073f69d0 inset;
 }
-
-
-#contacts img {
-  height: 50px;
-  width: 50px;
-  margin-left: 7px;
-  margin-right: 7px;
-}
-#contacts a {
-  text-decoration: none;
-}
-#contacts img:hover {
-  opacity: 0.8;
-}
-#contacts {
+.icon-bar{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
   text-align: center;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+}
+.icon-bar:hover{
+  fill-opacity: 0.5;
 }
 .copyright, .copyright a {
   width: 68%;
