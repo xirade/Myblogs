@@ -1,7 +1,7 @@
 let commentField = document.querySelector ('.comment-field');
 let charCounter = document.querySelector ('.char-counter');
 let submitButton = document.querySelector ('.submit-button');
-var progressCounter = document.querySelector ('span.progress-counter .text-progress');
+var progressCounter = document.getElementById('counter');
 var maxlengthValue = document.getElementById('textarea');
 var minlengthValue = document.getElementById('textarea');
 
@@ -10,6 +10,7 @@ maxlengthValue.getAttribute('maxLength', 'value');
 minlengthValue.getAttribute('minLength', 'value');
 document.getElementById('maxValue').innerHTML = maxlengthValue.maxLength;
 document.getElementById('minValue').innerHTML = minlengthValue.minLength;
+
 commentField.oninput = function (){  
     charCounter.textContent = commentField.value.length;
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');

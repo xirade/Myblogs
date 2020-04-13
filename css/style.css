@@ -24,6 +24,12 @@ p {
 }
 .textAlign{
   position: relative;
+  background-color: rgba(255, 255, 255, 0.253);
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 80%;
+  border: solid rgba(255, 255, 255, 0.253) 5px;
+  box-shadow: 2px 2px 2px 2px #afafba;
 }
 
 .about-me {
@@ -68,8 +74,12 @@ p {
 .quote {
   font-size: 12pt;
   text-align: left;
-  margin-top: 10px;
-  white-space: pre-line;
+}
+.quote-back {
+  background-color: rgba(161, 160, 160, 0.308);
+  width: 100%;
+  border-radius: 15px;
+  padding: 1px;
 }
 /*Start Table*/
 .rwd-table {
@@ -202,14 +212,14 @@ p {
 }
 /*Индикатор прогресса начало*/
 .progress-bar {
-  background-color: #d2d2e0;
+  background-color: #76767621;
   height: 28px;
   padding: 5px;
   width: 70%;
   margin: 1px 0;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
   -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
   box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
@@ -267,31 +277,44 @@ p {
   white-space: nowrap;
   padding: 5px;
   margin-bottom: 5px;
-  position: relative;
-  bottom: 7px;   
-  left: 13em;
+  position: absolute; 
+  right: 20px;
+  bottom: 95px;
 }
 .text-counter-progress{
-  color: #112c3387;
-  background-color: #e9eff6;
+  color: #112c33;
+  background-color: #e9eff600;
   border-radius: 15px;
   padding: 5px;
   width: 60%;
   height: 25px;
   box-shadow:inset 0 2px 3px #000000, inset 0px 2px 5px #585858;
 }
-.progress-counter .text-progress{
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+
+ .blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.7s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+.progress-counter {
   --element-width: 0%;
   display: inline-block;
   height: 17px;
   padding: 5px;
   border-radius: 30px;
   width: var(--element-width);
-  box-shadow: 0 5px 5px 	#0d5a7e	 inset,
-    0 -5px 5px 	#0d5a7e	inset;
-    transition: 0.1s;
+  background: repeating-linear-gradient(45deg, #7c88da, #7c88da 5px, #5661a0 5px, #5661a0 10px);
+  transition: 0.1s;
 }
-.glowColor .text-progress {
+.glowColor {
   -moz-box-shadow: 0 5px 5px rgba(255, 255, 255, 0.7) inset,
     0 -5px 5px rgba(255, 255, 255, 0.7) inset;
   -webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, 0.7) inset,
