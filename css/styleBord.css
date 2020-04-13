@@ -18,15 +18,14 @@ a {
   overflow: hidden;
 }
 
-.btn:before,
-.btn:after {
+.btn:before, .btn:after{
   content: "";
   position: absolute;
   left: 0;
   height: 2px;
   width: 100%;
   background-color: #252525;
-}
+} 
 
 .btn:before {
   top: 0;
@@ -74,7 +73,7 @@ a {
   z-index: 9;
   height: 2px;
   width: 100%;
-  background-color: #ebe9e9;
+  background: radial-gradient(#FFDD00,#FFB300,#FF8000,#FF5500,#FF0000,#FFDD00,#FFB300,#FF8000);
 }
 
 .btn > * > *:before {
@@ -107,7 +106,7 @@ a {
   z-index: 9;
   height: 100%;
   width: 2px;
-  background-color: #ebe9e9;
+  background: repeating-radial-gradient(#FFDD00,#FFB300,#FF8000,#FF5500,#FF0000,#FFDD00,#FFB300,#FF8000);
 }
 
 .btn > * > * > *:before {
