@@ -14,7 +14,7 @@ a {
   position: relative;
   display: block;
   padding: 0.5em 2em;
-  cursor: pointer;
+  cursor: default;
   overflow: hidden;
 }
 
@@ -73,7 +73,7 @@ a {
   z-index: 9;
   height: 2px;
   width: 100%;
-  background: repeating-radial-gradient(white 0%,grey 50%,black 100%);
+  background: repeating-radial-gradient(rgba(255, 214, 214, 0.8) 0%,rgba(255, 223, 223, 0.400) 50%,white 100%);
 }
 
 .btn > * > *:before {
@@ -85,7 +85,7 @@ a {
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1),
     -webkit-transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-}
+}         
 
 .btn > * > *:after {
   bottom: 0;
@@ -106,7 +106,7 @@ a {
   z-index: 9;
   height: 100%;
   width: 2px;
-  background: repeating-radial-gradient(white 0%,grey 50%,black 100%)
+  background: repeating-radial-gradient(rgba(255, 214, 214, 0.8) 0%,rgba(255, 223, 223, 0.400) 50%,white 100%);
 }
 
 .btn > * > * > *:before {
