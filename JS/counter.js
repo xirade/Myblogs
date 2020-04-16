@@ -1,6 +1,6 @@
-let commentField = document.querySelector ('.comment-field');
-let charCounter = document.querySelector ('.char-counter');
-let submitButton = document.querySelector ('.submit-button');
+let commentField = document.querySelector('.comment-field');
+let charCounter = document.querySelector('.char-counter');
+let submitButton = document.querySelector('.submit-button');
 var progressCounter = document.getElementById('counter');
 var maxlengthValue = document.getElementById('textarea');
 var minlengthValue = document.getElementById('textarea');
@@ -11,40 +11,40 @@ minlengthValue.getAttribute('minLength', 'value');
 document.getElementById('maxValue').innerHTML = maxlengthValue.maxLength;
 document.getElementById('minValue').innerHTML = minlengthValue.minLength;
 
-commentField.oninput = function (){  
+commentField.oninput = function() {
     charCounter.textContent = commentField.value.length;
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
-        if (charCounter.textContent >= maxlengthValue.maxLength){
-            submitButton.disabled = true;
-            allValues = true;
-        } else {
-            submitButton.disabled = false;
-        }
+    if (charCounter.textContent >= maxlengthValue.maxLength) {
+        submitButton.disabled = true;
+        allValues = true;
+    } else {
+        submitButton.disabled = false;
     }
+}
+
 function textAreaMaxLength(obj, varlength) {
     if (varlength == null)
         varlength = 100;
-    if (obj.value.length > (varlength-1)) {
+    if (obj.value.length > (varlength - 1)) {
         return false;
-    }
-    else
+    } else
         return true;
 }
 
 
-function xValue (key) {
-    if(allValues){
+function xValue(key) {
+    if (allValues) {
         var temp = key == 'Backspace';
-        if(temp)
+        if (temp)
             allValues = false;
         return temp;
     }
     return true;
 }
 
-    
-submitButton.onclick = function (){
-    if (charCounter.textContent == 0 ){
+
+submitButton.onclick = function() {
+    if (charCounter.textContent == 0) {
         submitButton.disabled = true;
     } else {
         commentField.value = '';
@@ -52,8 +52,3 @@ submitButton.onclick = function (){
         progressCounter.style.setProperty('--element-width', 0 + '%');
     }
 }
-
-
-
-
-
