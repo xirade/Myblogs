@@ -402,11 +402,11 @@ p {
   width: 70px;
   height: 70px;
 }
-.icon-bar:hover{
-  fill-opacity: 0.5;
+.icon path {
+  fill: black;
 }
-.dark-theme .icon{
-  filter: brightness(8);
+.dark-theme .icon path {
+  fill: white;
 }
 .copyright, .copyright a {
   width: 68%;
