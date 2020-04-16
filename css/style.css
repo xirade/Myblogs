@@ -81,13 +81,13 @@ p {
 }
 .dark-theme .canvas-section{
   background: rgba(0, 0, 0, 0.253);
-  background-image: repeating-radial-gradient( #8686868c 0%, #d1d1eb6c 50%, #ffffffe1 100%);
+  background-image: repeating-radial-gradient( #8686866b 0%, #d1d1eb71 50%, #ffffffb0 100%);
 }
 .canvas-section:hover{
     background-image: repeating-radial-gradient( #000000c5 0%, #000000 100%, #0b0b0c8c 0%); 
   }
   .dark-theme .canvas-section:hover{
-    background-image: repeating-radial-gradient( #ffffffc5 0%, #ffffff 100%, #e4e4f78c 0%);
+    background-image: repeating-radial-gradient( #ffffffc5 0%, #ffffffb0 100%, #e4e4f78c 0%);
   }
 .section {
   box-shadow: 1px 2px 2px 1px #afafba;
@@ -105,6 +105,9 @@ p {
   background-image: url('/Myblogs/img/3560210.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+.dark-theme #header{
+  background-image: url('/Myblogs/img/dark.jpg');
 }
 #header img {
   display: block;
