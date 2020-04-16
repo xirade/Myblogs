@@ -405,6 +405,9 @@ p {
 .icon-bar:hover{
   fill-opacity: 0.5;
 }
+.dark-theme .icon{
+  filter: brightness(8);
+}
 .copyright, .copyright a {
   width: 68%;
   text-decoration: none;
