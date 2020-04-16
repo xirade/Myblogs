@@ -211,3 +211,10 @@ a {
 .submit-button {
     display: contents;
 }
+
+.btn-submit {
+    position: absolute;
+    display: inline-block;
+    right: 15%;
+    top: 75%;
+}
