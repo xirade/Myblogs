@@ -26,6 +26,9 @@ a {
   width: 100%;
   background-color: #252525;
 } 
+.dark-theme .btn:before, .dark-theme .btn:after{
+  background-color: #c5c5c5;
+}
 
 .btn:before {
   top: 0;
@@ -56,6 +59,10 @@ a {
   width: 2px;
   background-color: #252525;
 }
+.dark-theme .btn > *:before,.dark-theme
+.btn > *:after {
+background-color: #c5c5c5;
+}
 
 .btn > *:before {
   left: 0;
@@ -73,7 +80,12 @@ a {
   z-index: 9;
   height: 2px;
   width: 100%;
-  background: repeating-radial-gradient(rgba(255, 214, 214, 0.8) 0%,rgba(255, 223, 223, 0.400) 50%,white 100%);
+  background: repeating-radial-gradient(rgba(248, 248, 248, 0.8) 0%,rgba(255, 255, 255, 0.4) 50%,white 100%);
+}
+
+.dark-theme .btn > * > *:before,.dark-theme
+.btn > * > *:after {
+  background: repeating-radial-gradient(rgba(8, 8, 8, 0.8) 0%,rgba(0, 0, 0, 0.4) 50%,rgb(0, 0, 0) 100%);
 }
 
 .btn > * > *:before {
@@ -108,7 +120,10 @@ a {
   width: 2px;
   background: repeating-radial-gradient(rgba(255, 214, 214, 0.8) 0%,rgba(255, 223, 223, 0.400) 50%,white 100%);
 }
-
+.dark-theme .btn > * > * > *:before,
+.dark-theme .btn > * > * > *:after {
+  background: repeating-radial-gradient(rgba(2, 1, 1, 0.8) 0%,rgba(2, 2, 2, 0.4) 50%,rgb(0, 0, 0) 100%);
+}
 .btn > * > * > *:before {
   left: 0;
   -webkit-transform: translate3d(0, 105%, 0);
@@ -159,6 +174,12 @@ a {
   box-shadow: inset 0 1px 1px 1px #4444441f;
   border-color: rgba(255, 255, 255, 0.11);
   outline: none;
+}
+.dark-theme .text, .dark-theme .form-inner textarea {
+  color: white;
+}
+.dark-theme ::placeholder{
+  color: white;
 }
 .comment-field {
   resize: none;
