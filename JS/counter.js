@@ -1,6 +1,8 @@
 let commentField = document.querySelector('.comment-field');
 let charCounter = document.querySelector('.char-counter');
 let submitButton = document.querySelector('.submit-button');
+let inputUser = document.getElementById('textUser');
+let inputEmail = document.getElementById('emailUser');
 var progressCounter = document.getElementById('counter');
 var maxlengthValue = document.getElementById('textarea');
 var minlengthValue = document.getElementById('textarea');
@@ -14,7 +16,7 @@ document.getElementById('minValue').innerHTML = minlengthValue.minLength;
 commentField.oninput = function() {
     charCounter.textContent = commentField.value.length;
     progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
-    if (charCounter.textContent >= maxlengthValue.maxLength) {
+    if (charCounter.textContent > maxlengthValue.maxLength) {
         submitButton.disabled = true;
         allValues = true;
     } else {

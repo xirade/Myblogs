@@ -271,8 +271,8 @@
         <form action="" class="comment-form" method="POST">
             <div class="decor">
                 <div class="form-inner">
-                    <input class="text" type="text" placeholder="Username" maxlength="10" required />
-                    <input class="text" type="email" placeholder="Email" maxlength="25" required />
+                    <input class="text" type="text" name="username" placeholder="Username" id="userText" maxlength="10" required />
+                    <input class="text" type="email" name="email" placeholder="Email" maxlength="25" id="emailText" required />
                     <textarea type="text" class="comment-field" onkeydown="return textAreaMaxLength(this,100) || xValue(event.key)" minlength="0" maxlength="100" placeholder="Message..." rows="3" required id="textarea"></textarea>
 
 
