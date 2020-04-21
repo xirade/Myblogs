@@ -179,6 +179,16 @@ a {
     outline: none;
 }
 
+.text:focus,
+textarea:focus {
+    border-color: rgba(0, 0, 255, 0.40);
+}
+
+.dark-theme .text:focus,
+.dark-theme textarea:focus {
+    border-color: rgba(0, 0, 255, 0.8);
+}
+
 .dark-theme .text,
 .dark-theme .form-inner textarea {
     color: white;
