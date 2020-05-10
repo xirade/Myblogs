@@ -437,12 +437,11 @@ p {
 }
 
 .progress-counter {
-    --element-width: 0%;
     display: inline-block;
     height: 17px;
     padding: 5px;
     border-radius: 30px;
-    width: var(--element-width);
+    width: 0;
     background: repeating-linear-gradient(45deg, #7c88da, #7c88da 5px, #5661a0 5px, #5661a0 10px);
     transition: 0.1s;
 }

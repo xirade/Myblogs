@@ -15,7 +15,7 @@ document.getElementById('minValue').innerHTML = minlengthValue.minLength;
 
 commentField.oninput = function() {
     charCounter.textContent = commentField.value.length;
-    progressCounter.style.setProperty('--element-width', charCounter.textContent + '%');
+    progressCounter.style.width = commentField.value.length + '%';
     if (charCounter.textContent > maxlengthValue.maxLength) {
         submitButton.disabled = true;
         allValues = true;
@@ -51,6 +51,6 @@ submitButton.onclick = function() {
     } else {
         commentField.value = '';
         charCounter.textContent = 0;
-        progressCounter.style.setProperty('--element-width', 0 + '%');
+        progressCounter.style.width = commentField.value.length + 0 + '%';
     }
 }
